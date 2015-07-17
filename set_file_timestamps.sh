@@ -593,7 +593,7 @@
 [ -f 'stopforumspam_1d.ipset' ] && touch --date=@1437091202 'stopforumspam_1d.ipset'
 [ -f 'stopforumspam_30d.ipset' ] && touch --date=@1437048037 'stopforumspam_30d.ipset'
 [ -f 'stopforumspam_7d.ipset' ] && touch --date=@1437044410 'stopforumspam_7d.ipset'
-[ -f 'stopforumspam_90d.ipset' ] && touch --date=@1437004958 'stopforumspam_90d.ipset'
+[ -f 'stopforumspam_90d.ipset' ] && touch --date=@1437048175 'stopforumspam_90d.ipset'
 [ -f 'tor_exits.ipset' ] && touch --date=@1437091414 'tor_exits.ipset'
 [ -f 'virbl.ipset' ] && touch --date=@1437090123 'virbl.ipset'
 [ -f 'voipbl.netset' ] && touch --date=@1437060425 'voipbl.netset'
