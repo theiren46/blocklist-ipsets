@@ -556,7 +556,7 @@
 [ -f 'nixspam.ipset' ] && touch --date=@1437171302 'nixspam.ipset'
 [ -f 'nt_malware_http.ipset' ] && touch --date=@1434665103 'nt_malware_http.ipset'
 [ -f 'nt_malware_irc.ipset' ] && touch --date=@1434665103 'nt_malware_irc.ipset'
-[ -f 'nt_ssh_7d.ipset' ] && touch --date=@1436997905 'nt_ssh_7d.ipset'
+[ -f 'nt_ssh_7d.ipset' ] && touch --date=@1437170704 'nt_ssh_7d.ipset'
 [ -f 'openbl_180d.ipset' ] && touch --date=@1437161521 'openbl_180d.ipset'
 [ -f 'openbl_1d.ipset' ] && touch --date=@1437169320 'openbl_1d.ipset'
 [ -f 'openbl_30d.ipset' ] && touch --date=@1437161520 'openbl_30d.ipset'
