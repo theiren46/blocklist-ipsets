@@ -570,7 +570,7 @@
 [ -f 'php_dictionary.ipset' ] && touch --date=@1437046594 'php_dictionary.ipset'
 [ -f 'php_harvesters.ipset' ] && touch --date=@1437090306 'php_harvesters.ipset'
 [ -f 'php_spammers.ipset' ] && touch --date=@1437042972 'php_spammers.ipset'
-[ -f 'proxyrss.ipset' ] && touch --date=@1437099685 'proxyrss.ipset'
+[ -f 'proxyrss.ipset' ] && touch --date=@1437111686 'proxyrss.ipset'
 [ -f 'proxz.ipset' ] && touch --date=@1437111698 'proxz.ipset'
 [ -f 'ri_connect_proxies.ipset' ] && touch --date=@1437104732 'ri_connect_proxies.ipset'
 [ -f 'ri_web_proxies.ipset' ] && touch --date=@1437104657 'ri_web_proxies.ipset'
