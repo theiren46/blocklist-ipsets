@@ -2,7 +2,7 @@
 [ ! "$1" = "YES_I_AM_SURE_DO_IT_PLEASE" ] && echo "READ ME NOW" && exit 1
 [ -f 'alienvault_reputation.ipset' ] && touch --date=@1437854422 'alienvault_reputation.ipset'
 [ -f 'geolite2_country/anonymous.netset' ] && touch --date=@1436356244 'geolite2_country/anonymous.netset'
-[ -f 'bi_any_2_1d.ipset' ] && touch --date=@1438021625 'bi_any_2_1d.ipset'
+[ -f 'bi_any_2_1d.ipset' ] && touch --date=@1438023607 'bi_any_2_1d.ipset'
 [ -f 'bi_any_2_30d.ipset' ] && touch --date=@1438006574 'bi_any_2_30d.ipset'
 [ -f 'bi_any_2_7d.ipset' ] && touch --date=@1438006575 'bi_any_2_7d.ipset'
 [ -f 'bi_bruteforce_2_30d.ipset' ] && touch --date=@1435970707 'bi_bruteforce_2_30d.ipset'
@@ -287,7 +287,7 @@
 [ -f 'dragon_sshpauth.netset' ] && touch --date=@1438020241 'dragon_sshpauth.netset'
 [ -f 'dragon_vncprobe.netset' ] && touch --date=@1438016641 'dragon_vncprobe.netset'
 [ -f 'dshield.netset' ] && touch --date=@1438022471 'dshield.netset'
-[ -f 'dshield_1d.netset' ] && touch --date=@1438022471 'dshield_1d.netset'
+[ -f 'dshield_1d.netset' ] && touch --date=@1438023355 'dshield_1d.netset'
 [ -f 'dshield_7d.netset' ] && touch --date=@1438022471 'dshield_7d.netset'
 [ -f 'et_block.netset' ] && touch --date=@1437712201 'et_block.netset'
 [ -f 'et_botcc.ipset' ] && touch --date=@1437712201 'et_botcc.ipset'
