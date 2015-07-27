@@ -285,7 +285,7 @@
 [ -f 'dragon_vncprobe.netset' ] && touch --date=@1437948242 'dragon_vncprobe.netset'
 [ -f 'dshield.netset' ] && touch --date=@1437957674 'dshield.netset'
 [ -f 'dshield_1d.netset' ] && touch --date=@1437957674 'dshield_1d.netset'
-[ -f 'dshield_7d.netset' ] && touch --date=@1437957674 'dshield_7d.netset'
+[ -f 'dshield_7d.netset' ] && touch --date=@1437958554 'dshield_7d.netset'
 [ -f 'et_block.netset' ] && touch --date=@1437712201 'et_block.netset'
 [ -f 'et_botcc.ipset' ] && touch --date=@1437712201 'et_botcc.ipset'
 [ -f 'et_compromised.ipset' ] && touch --date=@1437712206 'et_compromised.ipset'
