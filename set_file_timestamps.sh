@@ -2,7 +2,7 @@
 [ ! "$1" = "YES_I_AM_SURE_DO_IT_PLEASE" ] && echo "READ ME NOW" && exit 1
 [ -f 'alienvault_reputation.ipset' ] && touch --date=@1437854422 'alienvault_reputation.ipset'
 [ -f 'geolite2_country/anonymous.netset' ] && touch --date=@1436356244 'geolite2_country/anonymous.netset'
-[ -f 'bi_any_2_1d.ipset' ] && touch --date=@1438034047 'bi_any_2_1d.ipset'
+[ -f 'bi_any_2_1d.ipset' ] && touch --date=@1438036025 'bi_any_2_1d.ipset'
 [ -f 'bi_any_2_30d.ipset' ] && touch --date=@1438006574 'bi_any_2_30d.ipset'
 [ -f 'bi_any_2_7d.ipset' ] && touch --date=@1438028307 'bi_any_2_7d.ipset'
 [ -f 'bi_bruteforce_2_30d.ipset' ] && touch --date=@1435970707 'bi_bruteforce_2_30d.ipset'
@@ -18,7 +18,7 @@
 [ -f 'blocklist_de_bots.ipset' ] && touch --date=@1438035252 'blocklist_de_bots.ipset'
 [ -f 'blocklist_de_bruteforce.ipset' ] && touch --date=@1438035255 'blocklist_de_bruteforce.ipset'
 [ -f 'blocklist_de_ftp.ipset' ] && touch --date=@1438035250 'blocklist_de_ftp.ipset'
-[ -f 'blocklist_de_imap.ipset' ] && touch --date=@1438033330 'blocklist_de_imap.ipset'
+[ -f 'blocklist_de_imap.ipset' ] && touch --date=@1438035250 'blocklist_de_imap.ipset'
 [ -f 'blocklist_de_mail.ipset' ] && touch --date=@1438035006 'blocklist_de_mail.ipset'
 [ -f 'blocklist_de_sip.ipset' ] && touch --date=@1438035008 'blocklist_de_sip.ipset'
 [ -f 'blocklist_de_ssh.ipset' ] && touch --date=@1438035244 'blocklist_de_ssh.ipset'
