@@ -2,7 +2,7 @@
 [ ! "$1" = "YES_I_AM_SURE_DO_IT_PLEASE" ] && echo "READ ME NOW" && exit 1
 [ -f 'alienvault_reputation.ipset' ] && touch --date=@1437854422 'alienvault_reputation.ipset'
 [ -f 'geolite2_country/anonymous.netset' ] && touch --date=@1436356244 'geolite2_country/anonymous.netset'
-[ -f 'bi_any_2_1d.ipset' ] && touch --date=@1438163648 'bi_any_2_1d.ipset'
+[ -f 'bi_any_2_1d.ipset' ] && touch --date=@1438165626 'bi_any_2_1d.ipset'
 [ -f 'bi_any_2_30d.ipset' ] && touch --date=@1438093103 'bi_any_2_30d.ipset'
 [ -f 'bi_any_2_7d.ipset' ] && touch --date=@1438160425 'bi_any_2_7d.ipset'
 [ -f 'bi_bruteforce_2_30d.ipset' ] && touch --date=@1435970707 'bi_bruteforce_2_30d.ipset'
