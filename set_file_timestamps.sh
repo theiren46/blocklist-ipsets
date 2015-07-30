@@ -287,7 +287,7 @@
 [ -f 'dragon_sshpauth.netset' ] && touch --date=@1438239843 'dragon_sshpauth.netset'
 [ -f 'dragon_vncprobe.netset' ] && touch --date=@1438239841 'dragon_vncprobe.netset'
 [ -f 'dshield.netset' ] && touch --date=@1438242115 'dshield.netset'
-[ -f 'dshield_1d.netset' ] && touch --date=@1438242115 'dshield_1d.netset'
+[ -f 'dshield_1d.netset' ] && touch --date=@1438242971 'dshield_1d.netset'
 [ -f 'dshield_7d.netset' ] && touch --date=@1438242115 'dshield_7d.netset'
 [ -f 'et_block.netset' ] && touch --date=@1438230601 'et_block.netset'
 [ -f 'et_botcc.ipset' ] && touch --date=@1438230601 'et_botcc.ipset'
