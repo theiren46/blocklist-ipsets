@@ -602,7 +602,7 @@
 [ -f 'palevo.ipset' ] && touch --date=@1438329256 'palevo.ipset'
 [ -f 'php_commenters.ipset' ] && touch --date=@1438301359 'php_commenters.ipset'
 [ -f 'php_commenters_1d.ipset' ] && touch --date=@1438301359 'php_commenters_1d.ipset'
-[ -f 'php_commenters_30d.ipset' ] && touch --date=@1438301359 'php_commenters_30d.ipset'
+[ -f 'php_commenters_30d.ipset' ] && touch --date=@1438329611 'php_commenters_30d.ipset'
 [ -f 'php_commenters_7d.ipset' ] && touch --date=@1438301359 'php_commenters_7d.ipset'
 [ -f 'php_dictionary.ipset' ] && touch --date=@1438252592 'php_dictionary.ipset'
 [ -f 'php_dictionary_1d.ipset' ] && touch --date=@1438252592 'php_dictionary_1d.ipset'
