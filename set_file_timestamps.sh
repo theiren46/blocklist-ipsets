@@ -25,7 +25,7 @@
 [ -f 'bambenek_tinba.ipset' ] && touch --date=@1438525877 'bambenek_tinba.ipset'
 [ -f 'bambenek_volatile.ipset' ] && touch --date=@1438283356 'bambenek_volatile.ipset'
 [ -f 'bi_any_2_1d.ipset' ] && touch --date=@1438527306 'bi_any_2_1d.ipset'
-[ -f 'bi_any_2_30d.ipset' ] && touch --date=@1438440867 'bi_any_2_30d.ipset'
+[ -f 'bi_any_2_30d.ipset' ] && touch --date=@1438527620 'bi_any_2_30d.ipset'
 [ -f 'bi_any_2_7d.ipset' ] && touch --date=@1438513788 'bi_any_2_7d.ipset'
 [ -f 'bi_bruteforce_2_30d.ipset' ] && touch --date=@1438443388 'bi_bruteforce_2_30d.ipset'
 [ -f 'bi_ftp_2_30d.ipset' ] && touch --date=@1438356431 'bi_ftp_2_30d.ipset'
