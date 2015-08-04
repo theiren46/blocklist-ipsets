@@ -648,7 +648,7 @@
 [ -f 'spamhaus_drop.netset' ] && touch --date=@1438648092 'spamhaus_drop.netset'
 [ -f 'spamhaus_edrop.netset' ] && touch --date=@1438448609 'spamhaus_edrop.netset'
 [ -f 'sslbl.ipset' ] && touch --date=@1438690508 'sslbl.ipset'
-[ -f 'stopforumspam_180d.ipset' ] && touch --date=@1438603423 'stopforumspam_180d.ipset'
+[ -f 'stopforumspam_180d.ipset' ] && touch --date=@1438689822 'stopforumspam_180d.ipset'
 [ -f 'stopforumspam_1d.ipset' ] && touch --date=@1438700401 'stopforumspam_1d.ipset'
 [ -f 'stopforumspam_30d.ipset' ] && touch --date=@1438646448 'stopforumspam_30d.ipset'
 [ -f 'stopforumspam_7d.ipset' ] && touch --date=@1438696809 'stopforumspam_7d.ipset'
