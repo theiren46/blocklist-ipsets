@@ -206,7 +206,7 @@ This script will update each ipset and call firehol to update the ipset while th
 
 # List of ipsets included
 
-The following list was automatically generated on Mon Aug  3 23:59:14 UTC 2015.
+The following list was automatically generated on Tue Aug  4 00:00:44 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -237,7 +237,7 @@ name|info|type|entries|update|
 [bambenek_volatile](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_volatile)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of volatile C&Cs with 90 minute lookback|ipv4 hash:ip|3 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/volatile-iplist.txt)
 [bi_any_2_1d](http://ktsaou.github.io/blocklist-ipsets/?ipset=bi_any_2_1d)|[BadIPs.com](https://www.badips.com/) Bad IPs in category any with score above 2 and age less than 1d|ipv4 hash:ip|1508 unique IPs|updated every 30 mins  from [this link](https://www.badips.com/get/list/any/2?age=1d)
 [bi_any_2_30d](http://ktsaou.github.io/blocklist-ipsets/?ipset=bi_any_2_30d)|[BadIPs.com](https://www.badips.com/) Bad IPs in category any with score above 2 and age less than 30d|ipv4 hash:ip|11166 unique IPs|updated every 1 day  from [this link](https://www.badips.com/get/list/any/2?age=30d)
-[bi_any_2_7d](http://ktsaou.github.io/blocklist-ipsets/?ipset=bi_any_2_7d)|[BadIPs.com](https://www.badips.com/) Bad IPs in category any with score above 2 and age less than 7d|ipv4 hash:ip|5406 unique IPs|updated every 6 hours  from [this link](https://www.badips.com/get/list/any/2?age=7d)
+[bi_any_2_7d](http://ktsaou.github.io/blocklist-ipsets/?ipset=bi_any_2_7d)|[BadIPs.com](https://www.badips.com/) Bad IPs in category any with score above 2 and age less than 7d|ipv4 hash:ip|5356 unique IPs|updated every 6 hours  from [this link](https://www.badips.com/get/list/any/2?age=7d)
 [bi_bruteforce_2_30d](http://ktsaou.github.io/blocklist-ipsets/?ipset=bi_bruteforce_2_30d)|[BadIPs.com](https://www.badips.com/) Bad IPs in category bruteforce with score above 2 and age less than 30d|ipv4 hash:ip|0 unique IPs|updated every 1 day  from [this link](https://www.badips.com/get/list/bruteforce/2?age=30d)
 [bi_ftp_2_30d](http://ktsaou.github.io/blocklist-ipsets/?ipset=bi_ftp_2_30d)|[BadIPs.com](https://www.badips.com/) Bad IPs in category ftp with score above 2 and age less than 30d|ipv4 hash:ip|1823 unique IPs|updated every 1 day  from [this link](https://www.badips.com/get/list/ftp/2?age=30d)
 [bi_http_2_30d](http://ktsaou.github.io/blocklist-ipsets/?ipset=bi_http_2_30d)|[BadIPs.com](https://www.badips.com/) Bad IPs in category http with score above 2 and age less than 30d|ipv4 hash:ip|76 unique IPs|updated every 1 day  from [this link](https://www.badips.com/get/list/http/2?age=30d)
