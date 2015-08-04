@@ -206,7 +206,7 @@ This script will update each ipset and call firehol to update the ipset while th
 
 # List of ipsets included
 
-The following list was automatically generated on Tue Aug  4 11:57:22 UTC 2015.
+The following list was automatically generated on Tue Aug  4 12:00:55 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -272,7 +272,7 @@ name|info|type|entries|update|
 [dshield](http://ktsaou.github.io/blocklist-ipsets/?ipset=dshield)|[DShield.org](https://dshield.org/) top 20 attacking class C (/24) subnets over the last three days|ipv4 hash:net|20 subnets, 5120 unique IPs|updated every 15 mins  from [this link](http://feeds.dshield.org/block.txt)
 [dshield_1d](http://ktsaou.github.io/blocklist-ipsets/?ipset=dshield_1d)|[DShield.org](https://dshield.org/) top 20 attacking class C (/24) subnets over the last three days|ipv4 hash:net|244 subnets, 64256 unique IPs|updated every 15 mins  from [this link](http://feeds.dshield.org/block.txt)
 [dshield_30d](http://ktsaou.github.io/blocklist-ipsets/?ipset=dshield_30d)|[DShield.org](https://dshield.org/) top 20 attacking class C (/24) subnets over the last three days|ipv4 hash:net|1544 subnets, 401920 unique IPs|updated every 15 mins  from [this link](http://feeds.dshield.org/block.txt)
-[dshield_7d](http://ktsaou.github.io/blocklist-ipsets/?ipset=dshield_7d)|[DShield.org](https://dshield.org/) top 20 attacking class C (/24) subnets over the last three days|ipv4 hash:net|1292 subnets, 335872 unique IPs|updated every 15 mins  from [this link](http://feeds.dshield.org/block.txt)
+[dshield_7d](http://ktsaou.github.io/blocklist-ipsets/?ipset=dshield_7d)|[DShield.org](https://dshield.org/) top 20 attacking class C (/24) subnets over the last three days|ipv4 hash:net|1284 subnets, 333824 unique IPs|updated every 15 mins  from [this link](http://feeds.dshield.org/block.txt)
 [et_block](http://ktsaou.github.io/blocklist-ipsets/?ipset=et_block)|[EmergingThreats.net](http://www.emergingthreats.net/) default blacklist (at the time of writing includes spamhaus DROP, dshield and abuse.ch trackers, which are available separately too - prefer to use the direct ipsets instead of this, they seem to lag a bit in updates)|ipv4 hash:net|1059 subnets, 21152116 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt)
 [et_botcc](http://ktsaou.github.io/blocklist-ipsets/?ipset=et_botcc)|[EmergingThreats.net Command and Control IPs](http://doc.emergingthreats.net/bin/view/Main/BotCC) These IPs are updates every 24 hours and should be considered VERY highly reliable indications that a host is communicating with a known and active Bot or Malware command and control server - (although they say this includes abuse.ch trackers, it does not - most probably it is the shadowserver.org C&C list)|ipv4 hash:ip|502 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/fwrules/emerging-PIX-CC.rules)
 [et_compromised](http://ktsaou.github.io/blocklist-ipsets/?ipset=et_compromised)|[EmergingThreats.net compromised hosts](http://doc.emergingthreats.net/bin/view/Main/CompromisedHost)|ipv4 hash:ip|1182 unique IPs|updated every 12 hours  from [this link](http://rules.emergingthreats.net/blockrules/compromised-ips.txt)
