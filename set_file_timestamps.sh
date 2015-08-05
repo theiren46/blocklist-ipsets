@@ -35,7 +35,7 @@
 [ -f 'bi_sql_2_30d.ipset' ] && touch --date=@1434660747 'bi_sql_2_30d.ipset'
 [ -f 'bi_ssh_2_30d.ipset' ] && touch --date=@1438704017 'bi_ssh_2_30d.ipset'
 [ -f 'bi_voip_2_30d.ipset' ] && touch --date=@1438617288 'bi_voip_2_30d.ipset'
-[ -f 'blocklist_de.ipset' ] && touch --date=@1438760525 'blocklist_de.ipset'
+[ -f 'blocklist_de.ipset' ] && touch --date=@1438762443 'blocklist_de.ipset'
 [ -f 'blocklist_de_apache.ipset' ] && touch --date=@1438762467 'blocklist_de_apache.ipset'
 [ -f 'blocklist_de_bots.ipset' ] && touch --date=@1438762469 'blocklist_de_bots.ipset'
 [ -f 'blocklist_de_bruteforce.ipset' ] && touch --date=@1438762472 'blocklist_de_bruteforce.ipset'
