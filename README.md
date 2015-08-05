@@ -206,13 +206,14 @@ This script will update each ipset and call firehol to update the ipset while th
 
 # List of ipsets included
 
-The following list was automatically generated on Wed Aug  5 17:56:19 UTC 2015.
+The following list was automatically generated on Wed Aug  5 17:58:13 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
 name|info|type|entries|update|
 :--:|:--:|:--:|:-----:|:----:|
 [alienvault_reputation](http://ktsaou.github.io/blocklist-ipsets/?ipset=alienvault_reputation)|[AlienVault.com](https://www.alienvault.com/) IP reputation database|ipv4 hash:ip|126509 unique IPs|updated every 6 hours  from [this link](https://reputation.alienvault.com/reputation.generic)
+[asprox_c2](http://ktsaou.github.io/blocklist-ipsets/?ipset=asprox_c2)|[h3x.eu](http://atrack.h3x.eu/) ASPROX Tracker - Asprox C&C Sites|ipv4 hash:ip|936 unique IPs|updated every 1 hour  from [this link](http://atrack.h3x.eu/c2)
 [bambenek_banjori](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_banjori)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of banjori C&Cs with 90 minute lookback|ipv4 hash:ip|0 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/banjori-iplist.txt)
 [bambenek_bebloh](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_bebloh)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of bebloh C&Cs with 90 minute lookback|ipv4 hash:ip|3 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/bebloh-iplist.txt)
 [bambenek_c2](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_c2)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) master feed of known, active and non-sinkholed C&Cs IP addresses|ipv4 hash:ip|241 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/c2-ipmasterlist.txt)
