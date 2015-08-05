@@ -583,7 +583,7 @@
 [ -f 'iw_spamlist.ipset' ] && touch --date=@1438779904 'iw_spamlist.ipset'
 [ -f 'iw_wormlist.ipset' ] && touch --date=@1438776304 'iw_wormlist.ipset'
 [ -f 'lashback_ubl.ipset' ] && touch --date=@1438699898 'lashback_ubl.ipset'
-[ -f 'malc0de.ipset' ] && touch --date=@1438521425 'malc0de.ipset'
+[ -f 'malc0de.ipset' ] && touch --date=@1438780622 'malc0de.ipset'
 [ -f 'malwaredomainlist.ipset' ] && touch --date=@1437716676 'malwaredomainlist.ipset'
 [ -f 'maxmind_proxy_fraud.ipset' ] && touch --date=@1437824707 'maxmind_proxy_fraud.ipset'
 [ -f 'maxmind_proxy_fraud_1d.ipset' ] && touch --date=@1437899225 'maxmind_proxy_fraud_1d.ipset'
