@@ -206,7 +206,7 @@ This script will update each ipset and call firehol to update the ipset while th
 
 # List of ipsets included
 
-The following list was automatically generated on Fri Aug  7 14:23:25 UTC 2015.
+The following list was automatically generated on Fri Aug  7 14:27:44 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -218,7 +218,7 @@ name|info|type|entries|update|
 [bambenek_bebloh](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_bebloh)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of bebloh C&Cs with 90 minute lookback|ipv4 hash:ip|4 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/bebloh-iplist.txt)
 [bambenek_c2](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_c2)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) master feed of known, active and non-sinkholed C&Cs IP addresses|ipv4 hash:ip|229 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/c2-ipmasterlist.txt)
 [bambenek_cl](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_cl)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of cl C&Cs with 90 minute lookback|ipv4 hash:ip|0 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/cl-iplist.txt)
-[bambenek_cryptowall](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_cryptowall)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of cryptowall C&Cs with 90 minute lookback|ipv4 hash:ip|17 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/cryptowall-iplist.txt)
+[bambenek_cryptowall](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_cryptowall)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of cryptowall C&Cs with 90 minute lookback|ipv4 hash:ip|15 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/cryptowall-iplist.txt)
 [bambenek_dircrypt](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_dircrypt)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of dircrypt C&Cs with 90 minute lookback|ipv4 hash:ip|2 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/dircrypt-iplist.txt)
 [bambenek_dyre](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_dyre)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of dyre C&Cs with 90 minute lookback|ipv4 hash:ip|2 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/dyre-iplist.txt)
 [bambenek_geodo](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_geodo)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of geodo C&Cs with 90 minute lookback|ipv4 hash:ip|0 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/geodo-iplist.txt)
