@@ -4,7 +4,7 @@
 [ -f 'geolite2_country/anonymous.netset' ] && touch --date=@1438796967 'geolite2_country/anonymous.netset'
 [ -f 'asprox_c2.ipset' ] && touch --date=@1438797455 'asprox_c2.ipset'
 [ -f 'bambenek_banjori.ipset' ] && touch --date=@1438283074 'bambenek_banjori.ipset'
-[ -f 'bambenek_bebloh.ipset' ] && touch --date=@1439016452 'bambenek_bebloh.ipset'
+[ -f 'bambenek_bebloh.ipset' ] && touch --date=@1439018238 'bambenek_bebloh.ipset'
 [ -f 'bambenek_c2.ipset' ] && touch --date=@1439016988 'bambenek_c2.ipset'
 [ -f 'bambenek_cl.ipset' ] && touch --date=@1438283101 'bambenek_cl.ipset'
 [ -f 'bambenek_cryptowall.ipset' ] && touch --date=@1438957048 'bambenek_cryptowall.ipset'
