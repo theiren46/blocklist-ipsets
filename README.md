@@ -206,7 +206,7 @@ This script will update each ipset and call firehol to update the ipset while th
 
 # List of ipsets included
 
-The following list was automatically generated on Sat Aug  8 16:21:12 UTC 2015.
+The following list was automatically generated on Sat Aug  8 16:28:54 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -222,7 +222,7 @@ name|info|type|entries|update|
 [bambenek_dircrypt](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_dircrypt)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of dircrypt C&Cs with 90 minute lookback|ipv4 hash:ip|2 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/dircrypt-iplist.txt)
 [bambenek_dyre](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_dyre)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of dyre C&Cs with 90 minute lookback|ipv4 hash:ip|2 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/dyre-iplist.txt)
 [bambenek_geodo](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_geodo)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of geodo C&Cs with 90 minute lookback|ipv4 hash:ip|0 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/geodo-iplist.txt)
-[bambenek_hesperbot](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_hesperbot)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of hesperbot C&Cs with 90 minute lookback|ipv4 hash:ip|2 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/hesperbot-iplist.txt)
+[bambenek_hesperbot](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_hesperbot)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of hesperbot C&Cs with 90 minute lookback|ipv4 hash:ip|3 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/hesperbot-iplist.txt)
 [bambenek_matsnu](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_matsnu)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of matsnu C&Cs with 90 minute lookback|ipv4 hash:ip|14 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/matsnu-iplist.txt)
 [bambenek_necurs](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_necurs)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of necurs C&Cs with 90 minute lookback|ipv4 hash:ip|1 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/necurs-iplist.txt)
 [bambenek_p2pgoz](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_p2pgoz)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of p2pgoz C&Cs with 90 minute lookback|ipv4 hash:ip|0 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/p2pgoz-iplist.txt)
