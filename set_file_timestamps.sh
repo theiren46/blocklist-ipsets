@@ -331,7 +331,7 @@
 [ -f 'firehol_proxies.netset' ] && touch --date=@1439609581 'firehol_proxies.netset'
 [ -f 'fullbogons.netset' ] && touch --date=@1439552107 'fullbogons.netset'
 [ -f 'greensnow.ipset' ] && touch --date=@1439610939 'greensnow.ipset'
-[ -f 'haley_ssh.ipset' ] && touch --date=@1439596456 'haley_ssh.ipset'
+[ -f 'haley_ssh.ipset' ] && touch --date=@1439611216 'haley_ssh.ipset'
 [ -f 'ib_bluetack_badpeers.ipset' ] && touch --date=@1439224875 'ib_bluetack_badpeers.ipset'
 [ -f 'ib_bluetack_hijacked.netset' ] && touch --date=@1439224205 'ib_bluetack_hijacked.netset'
 [ -f 'ib_bluetack_level1.netset' ] && touch --date=@1439198770 'ib_bluetack_level1.netset'
