@@ -584,7 +584,7 @@
 [ -f 'ipdeny_country/id_country_za.netset' ] && touch --date=@1439640436 'ipdeny_country/id_country_za.netset'
 [ -f 'ipdeny_country/id_country_zm.netset' ] && touch --date=@1439640436 'ipdeny_country/id_country_zm.netset'
 [ -f 'ipdeny_country/id_country_zw.netset' ] && touch --date=@1439640436 'ipdeny_country/id_country_zw.netset'
-[ -f 'iw_spamlist.ipset' ] && touch --date=@1439745610 'iw_spamlist.ipset'
+[ -f 'iw_spamlist.ipset' ] && touch --date=@1439749210 'iw_spamlist.ipset'
 [ -f 'iw_wormlist.ipset' ] && touch --date=@1439706010 'iw_wormlist.ipset'
 [ -f 'lashback_ubl.ipset' ] && touch --date=@1439740289 'lashback_ubl.ipset'
 [ -f 'malc0de.ipset' ] && touch --date=@1439731022 'malc0de.ipset'
