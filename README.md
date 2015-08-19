@@ -206,7 +206,7 @@ This script will update each ipset and call firehol to update the ipset while th
 
 # List of ipsets included
 
-The following list was automatically generated on Wed Aug 19 17:50:08 UTC 2015.
+The following list was automatically generated on Wed Aug 19 17:55:00 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -227,7 +227,7 @@ name|info|type|entries|update|
 [bambenek_necurs](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_necurs)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of necurs C&Cs with 90 minute lookback|ipv4 hash:ip|1 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/necurs-iplist.txt)
 [bambenek_p2pgoz](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_p2pgoz)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of p2pgoz C&Cs with 90 minute lookback|ipv4 hash:ip|0 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/p2pgoz-iplist.txt)
 [bambenek_pushdo](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_pushdo)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of pushdo C&Cs with 90 minute lookback|ipv4 hash:ip|1 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/pushdo-iplist.txt)
-[bambenek_pykspa](http://iplists.firehol.org/?ipset=bambenek_pykspa)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of pykspa C&Cs with 90 minute lookback|ipv4 hash:ip|5 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/pykspa-iplist.txt)
+[bambenek_pykspa](http://iplists.firehol.org/?ipset=bambenek_pykspa)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of pykspa C&Cs with 90 minute lookback|ipv4 hash:ip|6 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/pykspa-iplist.txt)
 [bambenek_qakbot](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_qakbot)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of qakbot C&Cs with 90 minute lookback|ipv4 hash:ip|3 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/qakbot-iplist.txt)
 [bambenek_ramnit](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_ramnit)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of ramnit C&Cs with 90 minute lookback|ipv4 hash:ip|4 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/ramnit-iplist.txt)
 [bambenek_ranbyus](http://ktsaou.github.io/blocklist-ipsets/?ipset=bambenek_ranbyus)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of ranbyus C&Cs with 90 minute lookback|ipv4 hash:ip|0 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/ranbyus-iplist.txt)
