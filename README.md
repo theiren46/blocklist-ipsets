@@ -206,7 +206,7 @@ This script will update each ipset and call firehol to update the ipset while th
 
 # List of ipsets included
 
-The following list was automatically generated on Wed Aug 19 13:10:47 UTC 2015.
+The following list was automatically generated on Wed Aug 19 13:12:56 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -390,7 +390,7 @@ stopforumspam_365d|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by
 [stopforumspam_90d](http://iplists.firehol.org/?ipset=stopforumspam_90d)|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers (last 90 days)|ipv4 hash:ip|238829 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_90.zip)
 stopforumspam_ever|[StopForumSpam.com](http://www.stopforumspam.com) all IPs used by forum spammers, ever (normally you don't want to use this ipset, use the hourly one which includes last 24 hours IPs or the 7 days one)|ipv4 hash:ip|disabled|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/bannedips.zip)
 [talosintel_ipfilter](http://ktsaou.github.io/blocklist-ipsets/?ipset=talosintel_ipfilter)|[TalosIntel.com](http://talosintel.com/additional-resources/) List of known malicious network threats|ipv4 hash:ip|6312 unique IPs|updated every 4 hours  from [this link](http://talosintel.com/files/additional_resources/ips_blacklist/ip-filter.blf)
-[tor_exits](http://iplists.firehol.org/?ipset=tor_exits)|[TorProject.org](https://www.torproject.org) list of all current TOR exit points (TorDNSEL)|ipv4 hash:ip|1009 unique IPs|updated every 30 mins  from [this link](https://check.torproject.org/exit-addresses)
+[tor_exits](http://iplists.firehol.org/?ipset=tor_exits)|[TorProject.org](https://www.torproject.org) list of all current TOR exit points (TorDNSEL)|ipv4 hash:ip|1011 unique IPs|updated every 30 mins  from [this link](https://check.torproject.org/exit-addresses)
 [virbl](http://iplists.firehol.org/?ipset=virbl)|[VirBL](http://virbl.bit.nl/) is a project of which the idea was born during the RIPE-48 meeting. The plan was to get reports of virusscanning mailservers, and put the IP-addresses that were reported to send viruses on a blacklist.|ipv4 hash:ip|49 unique IPs|updated every 1 hour  from [this link](http://virbl.bit.nl/download/virbl.dnsbl.bit.nl.txt)
 [voipbl](http://ktsaou.github.io/blocklist-ipsets/?ipset=voipbl)|[VoIPBL.org](http://www.voipbl.org/) a distributed VoIP blacklist that is aimed to protects against VoIP Fraud and minimizing abuse for network that have publicly accessible PBX's. Several algorithms, external sources and manual confirmation are used before they categorize something as an attack and determine the threat level.|ipv4 hash:net|11423 subnets, 11895 unique IPs|updated every 4 hours  from [this link](http://www.voipbl.org/update/)
 [xroxy](http://iplists.firehol.org/?ipset=xroxy)|[xroxy.com](http://www.xroxy.com) open proxies (this list is composed using an RSS feed)|ipv4 hash:ip|58 unique IPs|updated every 1 hour  from [this link](http://www.xroxy.com/proxyrss.xml)
