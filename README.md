@@ -206,7 +206,7 @@ This script will update each ipset and call firehol to update the ipset while th
 
 # List of ipsets included
 
-The following list was automatically generated on Wed Aug 19 21:24:53 UTC 2015.
+The following list was automatically generated on Wed Aug 19 21:28:41 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -355,10 +355,10 @@ php_bad|[projecthoneypot.org](http://www.projecthoneypot.org/?rf=192670) bad web
 [proxyspy_1d](http://iplists.firehol.org/?ipset=proxyspy_1d)|[ProxySpy](http://spys.ru/en/) open proxies (updated hourly)|ipv4 hash:ip|1304 unique IPs|updated every 1 hour  from [this link](http://txt.proxyspy.net/proxy.txt)
 [proxyspy_30d](http://iplists.firehol.org/?ipset=proxyspy_30d)|[ProxySpy](http://spys.ru/en/) open proxies (updated hourly)|ipv4 hash:ip|3758 unique IPs|updated every 1 hour  from [this link](http://txt.proxyspy.net/proxy.txt)
 [proxyspy_7d](http://iplists.firehol.org/?ipset=proxyspy_7d)|[ProxySpy](http://spys.ru/en/) open proxies (updated hourly)|ipv4 hash:ip|2892 unique IPs|updated every 1 hour  from [this link](http://txt.proxyspy.net/proxy.txt)
-[proxz](http://iplists.firehol.org/?ipset=proxz)|[proxz.com](http://www.proxz.com) open proxies (this list is composed using an RSS feed)|ipv4 hash:ip|23 unique IPs|updated every 1 hour  from [this link](http://www.proxz.com/proxylists.xml)
-[proxz_1d](http://iplists.firehol.org/?ipset=proxz_1d)|[proxz.com](http://www.proxz.com) open proxies (this list is composed using an RSS feed)|ipv4 hash:ip|199 unique IPs|updated every 1 hour  from [this link](http://www.proxz.com/proxylists.xml)
-[proxz_30d](http://iplists.firehol.org/?ipset=proxz_30d)|[proxz.com](http://www.proxz.com) open proxies (this list is composed using an RSS feed)|ipv4 hash:ip|2522 unique IPs|updated every 1 hour  from [this link](http://www.proxz.com/proxylists.xml)
-[proxz_7d](http://iplists.firehol.org/?ipset=proxz_7d)|[proxz.com](http://www.proxz.com) open proxies (this list is composed using an RSS feed)|ipv4 hash:ip|895 unique IPs|updated every 1 hour  from [this link](http://www.proxz.com/proxylists.xml)
+[proxz](http://iplists.firehol.org/?ipset=proxz)|[proxz.com](http://www.proxz.com) open proxies (this list is composed using an RSS feed)|ipv4 hash:ip|27 unique IPs|updated every 1 hour  from [this link](http://www.proxz.com/proxylists.xml)
+[proxz_1d](http://iplists.firehol.org/?ipset=proxz_1d)|[proxz.com](http://www.proxz.com) open proxies (this list is composed using an RSS feed)|ipv4 hash:ip|206 unique IPs|updated every 1 hour  from [this link](http://www.proxz.com/proxylists.xml)
+[proxz_30d](http://iplists.firehol.org/?ipset=proxz_30d)|[proxz.com](http://www.proxz.com) open proxies (this list is composed using an RSS feed)|ipv4 hash:ip|2528 unique IPs|updated every 1 hour  from [this link](http://www.proxz.com/proxylists.xml)
+[proxz_7d](http://iplists.firehol.org/?ipset=proxz_7d)|[proxz.com](http://www.proxz.com) open proxies (this list is composed using an RSS feed)|ipv4 hash:ip|899 unique IPs|updated every 1 hour  from [this link](http://www.proxz.com/proxylists.xml)
 [ri_connect_proxies](http://iplists.firehol.org/?ipset=ri_connect_proxies)|[rosinstrument.com](http://www.rosinstrument.com) open CONNECT proxies (this list is composed using an RSS feed)|ipv4 hash:ip|149 unique IPs|updated every 1 hour  from [this link](http://tools.rosinstrument.com/proxy/plab100.xml)
 [ri_connect_proxies_1d](http://iplists.firehol.org/?ipset=ri_connect_proxies_1d)|[rosinstrument.com](http://www.rosinstrument.com) open CONNECT proxies (this list is composed using an RSS feed)|ipv4 hash:ip|455 unique IPs|updated every 1 hour  from [this link](http://tools.rosinstrument.com/proxy/plab100.xml)
 [ri_connect_proxies_30d](http://iplists.firehol.org/?ipset=ri_connect_proxies_30d)|[rosinstrument.com](http://www.rosinstrument.com) open CONNECT proxies (this list is composed using an RSS feed)|ipv4 hash:ip|3473 unique IPs|updated every 1 hour  from [this link](http://tools.rosinstrument.com/proxy/plab100.xml)
