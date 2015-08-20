@@ -5,7 +5,7 @@
 [ -f 'asprox_c2.ipset' ] && touch --date=@1439643253 'asprox_c2.ipset'
 [ -f 'bambenek_banjori.ipset' ] && touch --date=@1439810332 'bambenek_banjori.ipset'
 [ -f 'bambenek_bebloh.ipset' ] && touch --date=@1440014551 'bambenek_bebloh.ipset'
-[ -f 'bambenek_c2.ipset' ] && touch --date=@1440051780 'bambenek_c2.ipset'
+[ -f 'bambenek_c2.ipset' ] && touch --date=@1440052791 'bambenek_c2.ipset'
 [ -f 'bambenek_cl.ipset' ] && touch --date=@1439647502 'bambenek_cl.ipset'
 [ -f 'bambenek_cryptowall.ipset' ] && touch --date=@1440032612 'bambenek_cryptowall.ipset'
 [ -f 'bambenek_dircrypt.ipset' ] && touch --date=@1439990506 'bambenek_dircrypt.ipset'
