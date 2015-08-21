@@ -206,7 +206,7 @@ This script will update each ipset and call firehol to update the ipset while th
 
 # List of ipsets included
 
-The following list was automatically generated on Fri Aug 21 09:56:28 UTC 2015.
+The following list was automatically generated on Fri Aug 21 10:00:44 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -314,7 +314,7 @@ infiltrated|[infiltrated.net](http://www.infiltrated.net) (this list seems to be
 [maxmind_proxy_fraud_30d](http://ktsaou.github.io/blocklist-ipsets/?ipset=maxmind_proxy_fraud_30d)|[MaxMind.com](https://www.maxmind.com/en/anonymous-proxy-fraudulent-ip-address-list) list of anonymous proxy fraudelent IP addresses.|ipv4 hash:ip|649 unique IPs|updated every 4 hours  from [this link](https://www.maxmind.com/en/anonymous-proxy-fraudulent-ip-address-list)
 [maxmind_proxy_fraud_7d](http://ktsaou.github.io/blocklist-ipsets/?ipset=maxmind_proxy_fraud_7d)|[MaxMind.com](https://www.maxmind.com/en/anonymous-proxy-fraudulent-ip-address-list) list of anonymous proxy fraudelent IP addresses.|ipv4 hash:ip|366 unique IPs|updated every 4 hours  from [this link](https://www.maxmind.com/en/anonymous-proxy-fraudulent-ip-address-list)
 [myip](http://iplists.firehol.org/?ipset=myip)|[myip.ms](http://www.myip.ms/info/about) IPs identified as web bots in the last 10 days, using several sites that require human action|ipv4 hash:ip|5472 unique IPs|updated every 1 day  from [this link](http://www.myip.ms/files/blacklist/csf/latest_blacklist.txt)
-[nixspam](http://iplists.firehol.org/?ipset=nixspam)|[NiX Spam](http://www.heise.de/ix/NiX-Spam-DNSBL-and-blacklist-for-download-499637.html) IP addresses that sent spam in the last hour - automatically generated entries without distinguishing open proxies from relays, dialup gateways, and so on. All IPs are removed after 12 hours if there is no spam from there.|ipv4 hash:ip|25295 unique IPs|updated every 15 mins  from [this link](http://www.dnsbl.manitu.net/download/nixspam-ip.dump.gz)
+[nixspam](http://iplists.firehol.org/?ipset=nixspam)|[NiX Spam](http://www.heise.de/ix/NiX-Spam-DNSBL-and-blacklist-for-download-499637.html) IP addresses that sent spam in the last hour - automatically generated entries without distinguishing open proxies from relays, dialup gateways, and so on. All IPs are removed after 12 hours if there is no spam from there.|ipv4 hash:ip|25281 unique IPs|updated every 15 mins  from [this link](http://www.dnsbl.manitu.net/download/nixspam-ip.dump.gz)
 [nt_malware_dns](http://ktsaou.github.io/blocklist-ipsets/?ipset=nt_malware_dns)|[No Think](http://www.nothink.org/) Malware DNS (the original list includes hostnames and domains, which are ignored)|ipv4 hash:ip|235 unique IPs|updated every 1 hour  from [this link](http://www.nothink.org/blacklist/blacklist_malware_dns.txt)
 [nt_malware_http](http://ktsaou.github.io/blocklist-ipsets/?ipset=nt_malware_http)|[No Think](http://www.nothink.org/) Malware HTTP|ipv4 hash:ip|69 unique IPs|updated every 1 hour  from [this link](http://www.nothink.org/blacklist/blacklist_malware_http.txt)
 [nt_malware_irc](http://ktsaou.github.io/blocklist-ipsets/?ipset=nt_malware_irc)|[No Think](http://www.nothink.org/) Malware IRC|ipv4 hash:ip|43 unique IPs|updated every 1 hour  from [this link](http://www.nothink.org/blacklist/blacklist_malware_irc.txt)
