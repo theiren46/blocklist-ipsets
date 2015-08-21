@@ -841,7 +841,7 @@
 [ -f 'maxmind_proxy_fraud_30d.ipset' ] && touch --date=@1439641106 'maxmind_proxy_fraud_30d.ipset'
 [ -f 'maxmind_proxy_fraud_7d.ipset' ] && touch --date=@1439805252 'maxmind_proxy_fraud_7d.ipset'
 [ -f 'myip.ipset' ] && touch --date=@1440070228 'myip.ipset'
-[ -f 'nixspam.ipset' ] && touch --date=@1440150302 'nixspam.ipset'
+[ -f 'nixspam.ipset' ] && touch --date=@1440151202 'nixspam.ipset'
 [ -f 'nt_malware_dns.ipset' ] && touch --date=@1438553103 'nt_malware_dns.ipset'
 [ -f 'nt_malware_http.ipset' ] && touch --date=@1438553103 'nt_malware_http.ipset'
 [ -f 'nt_malware_irc.ipset' ] && touch --date=@1438553103 'nt_malware_irc.ipset'
