@@ -1,6 +1,6 @@
 #!/bin/bash
 [ ! "$1" = "YES_I_AM_SURE_DO_IT_PLEASE" ] && echo "READ ME NOW" && exit 1
-[ -f 'alienvault_reputation.ipset' ] && touch --date=@1440135017 'alienvault_reputation.ipset'
+[ -f 'alienvault_reputation.ipset' ] && touch --date=@1440156618 'alienvault_reputation.ipset'
 [ -f 'geolite2_country/anonymous.netset' ] && touch --date=@1438796967 'geolite2_country/anonymous.netset'
 [ -f 'asprox_c2.ipset' ] && touch --date=@1439643253 'asprox_c2.ipset'
 [ -f 'bambenek_banjori.ipset' ] && touch --date=@1439810332 'bambenek_banjori.ipset'
@@ -47,7 +47,7 @@
 [ -f 'blocklist_de_sip.ipset' ] && touch --date=@1440155408 'blocklist_de_sip.ipset'
 [ -f 'blocklist_de_ssh.ipset' ] && touch --date=@1440155645 'blocklist_de_ssh.ipset'
 [ -f 'blocklist_de_strongips.ipset' ] && touch --date=@1440153738 'blocklist_de_strongips.ipset'
-[ -f 'blocklist_net_ua.ipset' ] && touch --date=@1440156306 'blocklist_net_ua.ipset'
+[ -f 'blocklist_net_ua.ipset' ] && touch --date=@1440156905 'blocklist_net_ua.ipset'
 [ -f 'bm_tor.ipset' ] && touch --date=@1440151743 'bm_tor.ipset'
 [ -f 'bogons.netset' ] && touch --date=@1424305106 'bogons.netset'
 [ -f 'botscout.ipset' ] && touch --date=@1440155925 'botscout.ipset'
@@ -920,7 +920,7 @@
 [ -f 'voipbl.netset' ] && touch --date=@1440086969 'voipbl.netset'
 [ -f 'xroxy.ipset' ] && touch --date=@1440153181 'xroxy.ipset'
 [ -f 'xroxy_1d.ipset' ] && touch --date=@1440153181 'xroxy_1d.ipset'
-[ -f 'xroxy_30d.ipset' ] && touch --date=@1440145981 'xroxy_30d.ipset'
+[ -f 'xroxy_30d.ipset' ] && touch --date=@1440156782 'xroxy_30d.ipset'
 [ -f 'xroxy_7d.ipset' ] && touch --date=@1440153181 'xroxy_7d.ipset'
 [ -f 'zeus.ipset' ] && touch --date=@1440151682 'zeus.ipset'
 [ -f 'zeus_badips.ipset' ] && touch --date=@1440155893 'zeus_badips.ipset'
