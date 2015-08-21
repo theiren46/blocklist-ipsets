@@ -20,7 +20,7 @@
 [ -f 'bambenek_qakbot.ipset' ] && touch --date=@1440161199 'bambenek_qakbot.ipset'
 [ -f 'bambenek_ramnit.ipset' ] && touch --date=@1440160445 'bambenek_ramnit.ipset'
 [ -f 'bambenek_ranbyus.ipset' ] && touch --date=@1440159653 'bambenek_ranbyus.ipset'
-[ -f 'bambenek_simda.ipset' ] && touch --date=@1440177739 'bambenek_simda.ipset'
+[ -f 'bambenek_simda.ipset' ] && touch --date=@1440179510 'bambenek_simda.ipset'
 [ -f 'bambenek_suppobox.ipset' ] && touch --date=@1440170518 'bambenek_suppobox.ipset'
 [ -f 'bambenek_symmi.ipset' ] && touch --date=@1440159711 'bambenek_symmi.ipset'
 [ -f 'bambenek_tinba.ipset' ] && touch --date=@1440178275 'bambenek_tinba.ipset'
