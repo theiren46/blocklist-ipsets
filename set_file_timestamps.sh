@@ -47,7 +47,7 @@
 [ -f 'blocklist_de_sip.ipset' ] && touch --date=@1440149416 'blocklist_de_sip.ipset'
 [ -f 'blocklist_de_ssh.ipset' ] && touch --date=@1440149410 'blocklist_de_ssh.ipset'
 [ -f 'blocklist_de_strongips.ipset' ] && touch --date=@1440149419 'blocklist_de_strongips.ipset'
-[ -f 'blocklist_net_ua.ipset' ] && touch --date=@1440150310 'blocklist_net_ua.ipset'
+[ -f 'blocklist_net_ua.ipset' ] && touch --date=@1440150903 'blocklist_net_ua.ipset'
 [ -f 'bm_tor.ipset' ] && touch --date=@1440147603 'bm_tor.ipset'
 [ -f 'bogons.netset' ] && touch --date=@1424305106 'bogons.netset'
 [ -f 'botscout.ipset' ] && touch --date=@1440149848 'botscout.ipset'
