@@ -206,7 +206,7 @@ This script will update each ipset and call firehol to update the ipset while th
 
 # List of ipsets included
 
-The following list was automatically generated on Sat Aug 22 09:49:50 UTC 2015.
+The following list was automatically generated on Sat Aug 22 09:54:39 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -232,7 +232,7 @@ name|info|type|entries|update|
 [bambenek_ramnit](http://iplists.firehol.org/?ipset=bambenek_ramnit)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of ramnit C&Cs with 90 minute lookback|ipv4 hash:ip|4 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/ramnit-iplist.txt)
 [bambenek_ranbyus](http://iplists.firehol.org/?ipset=bambenek_ranbyus)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of ranbyus C&Cs with 90 minute lookback|ipv4 hash:ip|0 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/ranbyus-iplist.txt)
 [bambenek_simda](http://iplists.firehol.org/?ipset=bambenek_simda)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of simda C&Cs with 90 minute lookback|ipv4 hash:ip|63 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/simda-iplist.txt)
-[bambenek_suppobox](http://iplists.firehol.org/?ipset=bambenek_suppobox)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of suppobox C&Cs with 90 minute lookback|ipv4 hash:ip|112 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/suppobox-iplist.txt)
+[bambenek_suppobox](http://iplists.firehol.org/?ipset=bambenek_suppobox)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of suppobox C&Cs with 90 minute lookback|ipv4 hash:ip|113 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/suppobox-iplist.txt)
 [bambenek_symmi](http://iplists.firehol.org/?ipset=bambenek_symmi)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of symmi C&Cs with 90 minute lookback|ipv4 hash:ip|0 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/symmi-iplist.txt)
 [bambenek_tinba](http://iplists.firehol.org/?ipset=bambenek_tinba)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of tinba C&Cs with 90 minute lookback|ipv4 hash:ip|11 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/tinba-iplist.txt)
 [bambenek_volatile](http://iplists.firehol.org/?ipset=bambenek_volatile)|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds/) feed of current IPs of volatile C&Cs with 90 minute lookback|ipv4 hash:ip|3 unique IPs|updated every 30 mins  from [this link](http://osint.bambenekconsulting.com/feeds/volatile-iplist.txt)
