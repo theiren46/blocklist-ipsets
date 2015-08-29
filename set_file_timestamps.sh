@@ -48,7 +48,7 @@
 [ -f 'blocklist_de.ipset' ] && touch --date=@1440872043 'blocklist_de.ipset'
 [ -f 'blocklist_de_apache.ipset' ] && touch --date=@1440872050 'blocklist_de_apache.ipset'
 [ -f 'blocklist_de_bots.ipset' ] && touch --date=@1440872052 'blocklist_de_bots.ipset'
-[ -f 'blocklist_de_bruteforce.ipset' ] && touch --date=@1440871818 'blocklist_de_bruteforce.ipset'
+[ -f 'blocklist_de_bruteforce.ipset' ] && touch --date=@1440873023 'blocklist_de_bruteforce.ipset'
 [ -f 'blocklist_de_ftp.ipset' ] && touch --date=@1440872051 'blocklist_de_ftp.ipset'
 [ -f 'blocklist_de_imap.ipset' ] && touch --date=@1440872051 'blocklist_de_imap.ipset'
 [ -f 'blocklist_de_mail.ipset' ] && touch --date=@1440872048 'blocklist_de_mail.ipset'
