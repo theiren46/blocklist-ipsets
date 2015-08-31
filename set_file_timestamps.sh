@@ -998,7 +998,7 @@
 [ -f 'stopforumspam_30d.ipset' ] && touch --date=@1441022434 'stopforumspam_30d.ipset'
 [ -f 'stopforumspam_7d.ipset' ] && touch --date=@1441018811 'stopforumspam_7d.ipset'
 [ -f 'stopforumspam_90d.ipset' ] && touch --date=@1441022544 'stopforumspam_90d.ipset'
-[ -f 'talosintel_ipfilter.ipset' ] && touch --date=@1440189124 'talosintel_ipfilter.ipset'
+[ -f 'talosintel_ipfilter.ipset' ] && touch --date=@1441045800 'talosintel_ipfilter.ipset'
 [ -f 'tor_exits.ipset' ] && touch --date=@1441046338 'tor_exits.ipset'
 [ -f 'tor_exits_1d.ipset' ] && touch --date=@1441046338 'tor_exits_1d.ipset'
 [ -f 'tor_exits_30d.ipset' ] && touch --date=@1441046338 'tor_exits_30d.ipset'
