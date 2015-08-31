@@ -206,7 +206,7 @@ This script will update each ipset and call firehol to update the ipset while th
 
 # List of ipsets included
 
-The following list was automatically generated on Mon Aug 31 18:43:48 UTC 2015.
+The following list was automatically generated on Mon Aug 31 18:44:49 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -479,7 +479,7 @@ stopforumspam_365d|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by
 [stopforumspam_7d](http://iplists.firehol.org/?ipset=stopforumspam_7d)|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers (last 7 days)|ipv4 hash:ip|28830 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_7.zip)
 [stopforumspam_90d](http://iplists.firehol.org/?ipset=stopforumspam_90d)|[StopForumSpam.com](http://www.stopforumspam.com) IPs used by forum spammers (last 90 days)|ipv4 hash:ip|236544 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/listed_ip_90.zip)
 stopforumspam_ever|[StopForumSpam.com](http://www.stopforumspam.com) all IPs used by forum spammers, ever (normally you don't want to use this ipset, use the hourly one which includes last 24 hours IPs or the 7 days one)|ipv4 hash:ip|disabled|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/bannedips.zip)
-[talosintel_ipfilter](http://iplists.firehol.org/?ipset=talosintel_ipfilter)|[TalosIntel.com](http://talosintel.com/additional-resources/) List of known malicious network threats|ipv4 hash:ip|6312 unique IPs|updated every 4 hours  from [this link](http://talosintel.com/files/additional_resources/ips_blacklist/ip-filter.blf)
+[talosintel_ipfilter](http://iplists.firehol.org/?ipset=talosintel_ipfilter)|[TalosIntel.com](http://talosintel.com/additional-resources/) List of known malicious network threats|ipv4 hash:ip|8949 unique IPs|updated every 4 hours  from [this link](http://talosintel.com/feeds/ip-filter.blf)
 [tor_exits](http://iplists.firehol.org/?ipset=tor_exits)|[TorProject.org](https://www.torproject.org) list of all current TOR exit points (TorDNSEL)|ipv4 hash:ip|999 unique IPs|updated every 5 mins  from [this link](https://check.torproject.org/exit-addresses)
 [tor_exits_1d](http://iplists.firehol.org/?ipset=tor_exits_1d)|[TorProject.org](https://www.torproject.org) list of all current TOR exit points (TorDNSEL)|ipv4 hash:ip|1094 unique IPs|updated every 5 mins  from [this link](https://check.torproject.org/exit-addresses)
 [tor_exits_30d](http://iplists.firehol.org/?ipset=tor_exits_30d)|[TorProject.org](https://www.torproject.org) list of all current TOR exit points (TorDNSEL)|ipv4 hash:ip|1737 unique IPs|updated every 5 mins  from [this link](https://check.torproject.org/exit-addresses)
