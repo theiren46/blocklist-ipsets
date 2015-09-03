@@ -989,7 +989,7 @@
 [ -f 'spamhaus_edrop.netset' ] && touch --date=@1440962082 'spamhaus_edrop.netset'
 [ -f 'sslbl.ipset' ] && touch --date=@1441278906 'sslbl.ipset'
 [ -f 'sslbl_aggressive.ipset' ] && touch --date=@1441264525 'sslbl_aggressive.ipset'
-[ -f 'sslproxies.ipset' ] && touch --date=@1441280522 'sslproxies.ipset'
+[ -f 'sslproxies.ipset' ] && touch --date=@1441282322 'sslproxies.ipset'
 [ -f 'sslproxies_1d.ipset' ] && touch --date=@1441280522 'sslproxies_1d.ipset'
 [ -f 'sslproxies_30d.ipset' ] && touch --date=@1441273322 'sslproxies_30d.ipset'
 [ -f 'sslproxies_7d.ipset' ] && touch --date=@1441278722 'sslproxies_7d.ipset'
