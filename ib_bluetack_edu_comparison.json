@@ -20,7 +20,7 @@
 	{
 		"name": "bambenek_c2",
 		"category": "malware",
-		"ips": 228,
+		"ips": 226,
 		"common": 1
 	},
 	{
@@ -68,13 +68,13 @@
 	{
 		"name": "bitcoin_blockchain_info",
 		"category": "reputation",
-		"ips": 1614,
+		"ips": 1613,
 		"common": 20
 	},
 	{
 		"name": "bitcoin_blockchain_info_1d",
 		"category": "reputation",
-		"ips": 1895,
+		"ips": 1894,
 		"common": 21
 	},
 	{
@@ -86,32 +86,32 @@
 	{
 		"name": "bitcoin_blockchain_info_7d",
 		"category": "reputation",
-		"ips": 5130,
+		"ips": 5128,
 		"common": 52
 	},
 	{
 		"name": "bitcoin_nodes",
 		"category": "reputation",
-		"ips": 5593,
-		"common": 77
+		"ips": 5554,
+		"common": 76
 	},
 	{
 		"name": "bitcoin_nodes_1d",
 		"category": "reputation",
-		"ips": 8558,
-		"common": 112
+		"ips": 8543,
+		"common": 111
 	},
 	{
 		"name": "bitcoin_nodes_30d",
 		"category": "reputation",
-		"ips": 30968,
+		"ips": 30980,
 		"common": 336
 	},
 	{
 		"name": "bitcoin_nodes_7d",
 		"category": "reputation",
-		"ips": 19604,
-		"common": 205
+		"ips": 19585,
+		"common": 204
 	},
 	{
 		"name": "blocklist_de",
@@ -122,14 +122,14 @@
 	{
 		"name": "blocklist_de_apache",
 		"category": "attacks",
-		"ips": 21990,
+		"ips": 21994,
 		"common": 47
 	},
 	{
 		"name": "blocklist_de_bots",
 		"category": "attacks",
-		"ips": 1918,
-		"common": 8
+		"ips": 1914,
+		"common": 9
 	},
 	{
 		"name": "blocklist_de_bruteforce",
@@ -146,7 +146,7 @@
 	{
 		"name": "blocklist_de_imap",
 		"category": "attacks",
-		"ips": 696,
+		"ips": 698,
 		"common": 6
 	},
 	{
@@ -158,13 +158,13 @@
 	{
 		"name": "blocklist_de_ssh",
 		"category": "attacks",
-		"ips": 2366,
-		"common": 38
+		"ips": 2620,
+		"common": 37
 	},
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 14592,
+		"ips": 14591,
 		"common": 88
 	},
 	{
@@ -200,7 +200,7 @@
 	{
 		"name": "ciarmy",
 		"category": "reputation",
-		"ips": 319,
+		"ips": 323,
 		"common": 8
 	},
 	{
@@ -294,10 +294,16 @@
 		"common": 261
 	},
 	{
+		"name": "dshield",
+		"category": "attacks",
+		"ips": 5120,
+		"common": 256
+	},
+	{
 		"name": "dshield_1d",
 		"category": "attacks",
-		"ips": 85248,
-		"common": 1024
+		"ips": 84480,
+		"common": 1280
 	},
 	{
 		"name": "dshield_30d",
@@ -362,19 +368,19 @@
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 686295568,
-		"common": 563836
+		"ips": 686295567,
+		"common": 564092
 	},
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 120307,
-		"common": 1183
+		"ips": 119548,
+		"common": 1440
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 11033922,
+		"ips": 11033924,
 		"common": 199760
 	},
 	{
@@ -614,7 +620,7 @@
 	{
 		"name": "ib_spamhaus_drop",
 		"category": "reputation",
-		"ips": 22682368,
+		"ips": 22752000,
 		"common": 425136
 	},
 	{
@@ -656,8 +662,8 @@
 	{
 		"name": "nixspam",
 		"category": "spam",
-		"ips": 20445,
-		"common": 116
+		"ips": 19852,
+		"common": 119
 	},
 	{
 		"name": "nt_malware_dns",
@@ -688,6 +694,12 @@
 		"category": "attacks",
 		"ips": 15186,
 		"common": 318
+	},
+	{
+		"name": "openbl_1d",
+		"category": "attacks",
+		"ips": 117,
+		"common": 1
 	},
 	{
 		"name": "openbl_30d",
@@ -996,9 +1008,15 @@
 		"common": 79
 	},
 	{
+		"name": "socks_proxy",
+		"category": "anonymizers",
+		"ips": 80,
+		"common": 1
+	},
+	{
 		"name": "socks_proxy_1d",
 		"category": "anonymizers",
-		"ips": 387,
+		"ips": 386,
 		"common": 7
 	},
 	{
@@ -1010,7 +1028,7 @@
 	{
 		"name": "socks_proxy_7d",
 		"category": "anonymizers",
-		"ips": 1016,
+		"ips": 1008,
 		"common": 10
 	},
 	{
@@ -1076,13 +1094,13 @@
 	{
 		"name": "sslbl",
 		"category": "malware",
-		"ips": 174,
+		"ips": 175,
 		"common": 2
 	},
 	{
 		"name": "sslbl_aggressive",
 		"category": "malware",
-		"ips": 870,
+		"ips": 871,
 		"common": 15
 	},
 	{
@@ -1094,7 +1112,7 @@
 	{
 		"name": "sslproxies_1d",
 		"category": "anonymizers",
-		"ips": 734,
+		"ips": 733,
 		"common": 5
 	},
 	{
@@ -1106,7 +1124,7 @@
 	{
 		"name": "sslproxies_7d",
 		"category": "anonymizers",
-		"ips": 3919,
+		"ips": 3915,
 		"common": 13
 	},
 	{
