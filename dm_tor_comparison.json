@@ -44,13 +44,13 @@
 	{
 		"name": "bitcoin_blockchain_info",
 		"category": "reputation",
-		"ips": 1026,
+		"ips": 1025,
 		"common": 26
 	},
 	{
 		"name": "bitcoin_blockchain_info_1d",
 		"category": "reputation",
-		"ips": 1851,
+		"ips": 1849,
 		"common": 44
 	},
 	{
@@ -62,31 +62,31 @@
 	{
 		"name": "bitcoin_blockchain_info_7d",
 		"category": "reputation",
-		"ips": 5065,
+		"ips": 5064,
 		"common": 97
 	},
 	{
 		"name": "bitcoin_nodes",
 		"category": "reputation",
-		"ips": 5500,
+		"ips": 5518,
 		"common": 115
 	},
 	{
 		"name": "bitcoin_nodes_1d",
 		"category": "reputation",
-		"ips": 8725,
+		"ips": 8733,
 		"common": 124
 	},
 	{
 		"name": "bitcoin_nodes_30d",
 		"category": "reputation",
-		"ips": 31766,
+		"ips": 31778,
 		"common": 157
 	},
 	{
 		"name": "bitcoin_nodes_7d",
 		"category": "reputation",
-		"ips": 19463,
+		"ips": 19444,
 		"common": 145
 	},
 	{
@@ -98,50 +98,50 @@
 	{
 		"name": "blocklist_de_apache",
 		"category": "attacks",
-		"ips": 22550,
+		"ips": 22553,
 		"common": 2
 	},
 	{
 		"name": "blocklist_de_mail",
 		"category": "attacks",
-		"ips": 14375,
+		"ips": 14433,
 		"common": 2
 	},
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 14435,
+		"ips": 14438,
 		"common": 96
 	},
 	{
 		"name": "bm_tor",
 		"category": "anonymizers",
-		"ips": 6259,
-		"common": 6155
+		"ips": 6274,
+		"common": 6269
 	},
 	{
 		"name": "botscout",
 		"category": "abuse",
-		"ips": 64,
-		"common": 24
+		"ips": 59,
+		"common": 20
 	},
 	{
 		"name": "botscout_1d",
 		"category": "abuse",
-		"ips": 1230,
-		"common": 212
+		"ips": 1247,
+		"common": 216
 	},
 	{
 		"name": "botscout_30d",
 		"category": "abuse",
-		"ips": 19505,
-		"common": 530
+		"ips": 19516,
+		"common": 531
 	},
 	{
 		"name": "botscout_7d",
 		"category": "abuse",
-		"ips": 6015,
-		"common": 409
+		"ips": 6018,
+		"common": 411
 	},
 	{
 		"name": "cruzit_web_attacks",
@@ -254,31 +254,31 @@
 	{
 		"name": "firehol_anonymous",
 		"category": "anonymizers",
-		"ips": 90871,
+		"ips": 90779,
 		"common": 6269
 	},
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 686295311,
+		"ips": 686295314,
 		"common": 5
 	},
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 124788,
-		"common": 394
+		"ips": 124799,
+		"common": 395
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 11043287,
+		"ips": 11043298,
 		"common": 1157
 	},
 	{
 		"name": "firehol_proxies",
 		"category": "anonymizers",
-		"ips": 29525,
+		"ips": 29526,
 		"common": 232
 	},
 	{
@@ -290,7 +290,7 @@
 	{
 		"name": "greensnow",
 		"category": "attacks",
-		"ips": 1527,
+		"ips": 1531,
 		"common": 12
 	},
 	{
@@ -548,44 +548,62 @@
 	{
 		"name": "php_dictionary_30d",
 		"category": "spam",
-		"ips": 1052,
+		"ips": 1094,
 		"common": 5
 	},
 	{
 		"name": "php_dictionary_7d",
 		"category": "spam",
-		"ips": 321,
+		"ips": 366,
 		"common": 1
 	},
 	{
 		"name": "php_harvesters",
 		"category": "spam",
 		"ips": 50,
-		"common": 6
+		"common": 5
 	},
 	{
 		"name": "php_harvesters_1d",
 		"category": "spam",
-		"ips": 50,
-		"common": 6
+		"ips": 76,
+		"common": 7
 	},
 	{
 		"name": "php_harvesters_30d",
 		"category": "spam",
-		"ips": 508,
+		"ips": 521,
 		"common": 10
 	},
 	{
 		"name": "php_harvesters_7d",
 		"category": "spam",
-		"ips": 193,
-		"common": 8
+		"ips": 212,
+		"common": 9
+	},
+	{
+		"name": "php_spammers",
+		"category": "spam",
+		"ips": 50,
+		"common": 2
+	},
+	{
+		"name": "php_spammers_1d",
+		"category": "spam",
+		"ips": 99,
+		"common": 2
 	},
 	{
 		"name": "php_spammers_30d",
 		"category": "spam",
-		"ips": 1044,
-		"common": 3
+		"ips": 1085,
+		"common": 5
+	},
+	{
+		"name": "php_spammers_7d",
+		"category": "spam",
+		"ips": 371,
+		"common": 2
 	},
 	{
 		"name": "proxylists",
