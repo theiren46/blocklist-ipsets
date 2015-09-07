@@ -56,32 +56,38 @@
 	{
 		"name": "blocklist_de",
 		"category": "attacks",
-		"ips": 32595,
-		"common": 128
+		"ips": 32633,
+		"common": 127
 	},
 	{
 		"name": "blocklist_de_apache",
 		"category": "attacks",
-		"ips": 23258,
+		"ips": 23244,
 		"common": 26
 	},
 	{
 		"name": "blocklist_de_bots",
 		"category": "attacks",
-		"ips": 998,
-		"common": 95
+		"ips": 979,
+		"common": 94
 	},
 	{
 		"name": "blocklist_de_bruteforce",
 		"category": "attacks",
-		"ips": 11918,
+		"ips": 11903,
 		"common": 4
 	},
 	{
 		"name": "blocklist_de_mail",
 		"category": "attacks",
-		"ips": 14799,
-		"common": 47
+		"ips": 14804,
+		"common": 46
+	},
+	{
+		"name": "blocklist_de_ssh",
+		"category": "attacks",
+		"ips": 4339,
+		"common": 1
 	},
 	{
 		"name": "blocklist_de_strongips",
@@ -92,8 +98,8 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 15539,
-		"common": 105
+		"ips": 15508,
+		"common": 106
 	},
 	{
 		"name": "bm_tor",
@@ -186,27 +192,21 @@
 		"common": 6
 	},
 	{
-		"name": "dshield",
-		"category": "attacks",
-		"ips": 5120,
-		"common": 1
-	},
-	{
 		"name": "dshield_1d",
 		"category": "attacks",
-		"ips": 84480,
+		"ips": 85504,
 		"common": 2
 	},
 	{
 		"name": "dshield_30d",
 		"category": "attacks",
-		"ips": 944384,
+		"ips": 944640,
 		"common": 8
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 315136,
+		"ips": 315904,
 		"common": 6
 	},
 	{
@@ -237,18 +237,18 @@
 		"name": "firehol_level1",
 		"category": "attacks",
 		"ips": 686360079,
-		"common": 43
+		"common": 42
 	},
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 123333,
+		"ips": 124396,
 		"common": 261
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 11047140,
+		"ips": 11047396,
 		"common": 548
 	},
 	{
@@ -416,7 +416,7 @@
 	{
 		"name": "nixspam",
 		"category": "spam",
-		"ips": 23854,
+		"ips": 23648,
 		"common": 33
 	},
 	{
@@ -830,8 +830,8 @@
 	{
 		"name": "talosintel_ipfilter",
 		"category": "attacks",
-		"ips": 10324,
-		"common": 67
+		"ips": 10685,
+		"common": 66
 	},
 	{
 		"name": "tor_exits",
