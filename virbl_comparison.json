@@ -1,15 +1,39 @@
 [
 	{
+		"name": "bi_any_2_30d",
+		"category": "attacks",
+		"ips": 8621,
+		"common": 1
+	},
+	{
+		"name": "bi_any_2_7d",
+		"category": "attacks",
+		"ips": 3467,
+		"common": 1
+	},
+	{
+		"name": "bi_mail_2_30d",
+		"category": "attacks",
+		"ips": 624,
+		"common": 1
+	},
+	{
 		"name": "blocklist_de",
 		"category": "attacks",
 		"ips": 32336,
-		"common": 21
+		"common": 7
+	},
+	{
+		"name": "blocklist_de_imap",
+		"category": "attacks",
+		"ips": 918,
+		"common": 1
 	},
 	{
 		"name": "blocklist_de_mail",
 		"category": "attacks",
 		"ips": 14673,
-		"common": 21
+		"common": 7
 	},
 	{
 		"name": "firehol_level1",
@@ -20,55 +44,43 @@
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 125402,
-		"common": 21
+		"ips": 125394,
+		"common": 7
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 11054822,
-		"common": 239
+		"ips": 11054686,
+		"common": 103
 	},
 	{
 		"name": "ib_bluetack_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 2
-	},
-	{
-		"name": "ib_bluetack_hijacked",
-		"category": "reputation",
-		"ips": 9177856,
 		"common": 1
 	},
 	{
 		"name": "ib_bluetack_level1",
 		"category": "reputation",
 		"ips": 764993634,
-		"common": 4
+		"common": 3
 	},
 	{
 		"name": "ib_bluetack_level2",
 		"category": "reputation",
 		"ips": 348710251,
-		"common": 12
+		"common": 5
 	},
 	{
 		"name": "ib_bluetack_level3",
 		"category": "reputation",
 		"ips": 139104927,
-		"common": 8
+		"common": 4
 	},
 	{
 		"name": "ib_bluetack_ms",
 		"category": "organizations",
 		"ips": 1848447,
-		"common": 1
-	},
-	{
-		"name": "ib_isp_att",
-		"category": "organizations",
-		"ips": 55845128,
 		"common": 1
 	},
 	{
@@ -78,46 +90,28 @@
 		"common": 1
 	},
 	{
-		"name": "ib_org_blizzard",
-		"category": "organizations",
-		"ips": 16794627,
-		"common": 1
-	},
-	{
 		"name": "iw_spamlist",
 		"category": "spam",
-		"ips": 3462,
-		"common": 34
+		"ips": 3491,
+		"common": 9
 	},
 	{
 		"name": "lashback_ubl",
 		"category": "spam",
 		"ips": 587899,
-		"common": 144
-	},
-	{
-		"name": "nixspam",
-		"category": "spam",
-		"ips": 24718,
-		"common": 1
+		"common": 34
 	},
 	{
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 37716616,
-		"common": 1
-	},
-	{
-		"name": "sorbs_anonymizers",
-		"category": "spam",
-		"ips": 596377,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "sorbs_dul",
 		"category": "spam",
 		"ips": 350235883,
-		"common": 20
+		"common": 11
 	},
 	{
 		"name": "sorbs_noserver",
@@ -129,7 +123,7 @@
 		"name": "sorbs_recent_spam",
 		"category": "spam",
 		"ips": 228670,
-		"common": 4
+		"common": 1
 	},
 	{
 		"name": "spamhaus_edrop",
