@@ -21,7 +21,7 @@
 		"name": "blocklist_de",
 		"category": "attacks",
 		"ips": 32188,
-		"common": 2
+		"common": 1
 	},
 	{
 		"name": "blocklist_de_imap",
@@ -32,8 +32,8 @@
 	{
 		"name": "blocklist_de_mail",
 		"category": "attacks",
-		"ips": 15412,
-		"common": 2
+		"ips": 15428,
+		"common": 1
 	},
 	{
 		"name": "firehol_level1",
@@ -44,14 +44,20 @@
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 124232,
-		"common": 2
+		"ips": 122952,
+		"common": 1
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 11058656,
-		"common": 10
+		"ips": 11058161,
+		"common": 9
+	},
+	{
+		"name": "ib_bluetack_bogons",
+		"category": "unroutable",
+		"ips": 666661539,
+		"common": 1
 	},
 	{
 		"name": "ib_bluetack_level1",
@@ -63,7 +69,7 @@
 		"name": "lashback_ubl",
 		"category": "spam",
 		"ips": 587899,
-		"common": 3
+		"common": 1
 	},
 	{
 		"name": "pushing_inertia_blocklist",
