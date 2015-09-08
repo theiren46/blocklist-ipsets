@@ -32,13 +32,13 @@
 	{
 		"name": "blocklist_de_mail",
 		"category": "attacks",
-		"ips": 15423,
+		"ips": 15432,
 		"common": 1
 	},
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 686582298,
+		"ips": 686582299,
 		"common": 1
 	},
 	{
@@ -50,8 +50,8 @@
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 11057648,
-		"common": 9
+		"ips": 11057652,
+		"common": 13
 	},
 	{
 		"name": "ib_bluetack_bogons",
@@ -66,10 +66,16 @@
 		"common": 2
 	},
 	{
+		"name": "ib_bluetack_level2",
+		"category": "reputation",
+		"ips": 348710251,
+		"common": 1
+	},
+	{
 		"name": "lashback_ubl",
 		"category": "spam",
 		"ips": 587899,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "pushing_inertia_blocklist",
@@ -84,9 +90,27 @@
 		"common": 1
 	},
 	{
+		"name": "sorbs_recent_spam",
+		"category": "spam",
+		"ips": 224663,
+		"common": 1
+	},
+	{
 		"name": "spamhaus_edrop",
 		"category": "reputation",
 		"ips": 656640,
+		"common": 1
+	},
+	{
+		"name": "stopforumspam_180d",
+		"category": "abuse",
+		"ips": 495812,
+		"common": 1
+	},
+	{
+		"name": "stopforumspam_365d",
+		"category": "abuse",
+		"ips": 930271,
 		"common": 1
 	}
 ]
