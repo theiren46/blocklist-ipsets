@@ -798,24 +798,24 @@ $(function () {
 	$.getJSON(ipset + '.json', function(data) {
 		ipset_data = data;
 
-		var meta1 = document.createElement('meta');
-		meta1.name = "description";
+		var metadescription = document.createElement('meta');
+		metadescription.name = "description";
 
-		var meta2 = document.createElement('meta');
-		meta2.name = "keywords";
+		var metakeywords = document.createElement('meta');
+		metakeywords.name = "keywords";
 
 		if(home) {
 			document.title = 'FireHOL IP Lists Analytics';
-			meta1.content = 'InfoSec analytics for malware, abuse and attacks IP Lists: size over time, retention policy, geographic coverage, comparisons and overlaps. More than 100 IP lists analyzed.';
-			meta2.content = 'blocklists, blacklists, iptables ipsets, firewall, malware, abuse, attacks';
+			metadescription.content = 'InfoSec analytics for malware, abuse and attacks IP Lists: size over time, retention policy, geographic coverage, comparisons and overlaps. More than 100 IP lists analyzed.';
+			metakeywords.content = 'blocklists, blacklists, iptables ipsets, firewall, malware, abuse, attacks';
 		}
 		else {
 			document.title = ipset + ((data.maintainer)?(' by ' + data.maintainer):'') + ', at FireHOL IP Lists Analytics';
-			meta1.content = 'InfoSec analytics for ' + ((data.maintainer)?(data.maintainer + '\'s IP list '):'IP list ') + ipset + '. History of updates, retention policy, geographic coverage, comparison with other IP lists.';
-			meta2.content = ((data.maintainer)?(data.maintainer + ', '):'') + ipset + ', blocklist, blacklist, iptables, ipset, firewall, malware, abuse, attack';
+			metadescription.content = ipset + ((data.category)?(' ' + data.category + ' list'):('')) + ((data.maintainer)?(' by ' + data.maintainer):' IP list') + ': updates, changes history, retention policy, geographic coverage, comparison with other IP lists.';
+			metakeywords.content = ((data.maintainer)?(data.maintainer + ', '):'') + ipset + ', blocklist, blacklist, iptables, ipset, firewall, malware, abuse, attack';
 		}
-		document.getElementsByTagName('head')[0].appendChild(meta1);
-		document.getElementsByTagName('head')[0].appendChild(meta2);
+		document.getElementsByTagName('head')[0].appendChild(metadescription);
+		document.getElementsByTagName('head')[0].appendChild(metakeywords);
 
 		// console.log(data);
 		// set the content on the page
