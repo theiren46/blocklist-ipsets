@@ -1186,7 +1186,7 @@ $(function () {
 							</ul>
 						</li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="all_label">Links <strong class="caret"></strong></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <strong class="caret"></strong></a>
 							<ul class="dropdown-menu scrollable-menu" role="menu" id="links">
 								<li><a href="http://firehol.org/">FireHOL Home</a></li>
 								<li><a href="https://github.com/ktsaou/blocklist-ipsets/">IPSet Files in GitHub</a></li>
@@ -1266,7 +1266,7 @@ $(function () {
 					<li role="presentation"><a href="#all_by_maintainer" aria-controls="all_by_maintainer" role="tab" data-toggle="tab">By Maintainer</a></li>
 					<li role="presentation"><a href="#all_alphabetically" aria-controls="all_alphabetically" role="tab" data-toggle="tab">Alphabetically</a></li>
 				</ul>
-				&nbsp;<p/>
+				&nbsp;<br/>
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane fade" id="all_alphabetically"></div>
 					<div role="tabpanel" class="tab-pane fade in active" id="all_by_category"></div>
@@ -1287,12 +1287,12 @@ $(function () {
 				<p>If you use this IP list in production systems, keep in mind this aggregation introduces a significant drawback: To unlist an IP, once it is in the aggregation log, you will either have to whitelist it using your own means, or wait for the aggregation period to expire so that it will be unlisted automatically.</p>
 			</div>
 			<div id="about">
-				<h2 id="overview-type-links">About <small><span id="about_ipset"></span></small></h2>
+				<h2>About <small><span id="about_ipset"></span></small></h2>
 				<div id="about_html"></div>
 			</div>
 			<hr/>
 			<div id="history">
-				<h2 id="overview-type-links">Evolution <small>of <span id="evolution_ipset"></span></small></h2>
+				<h2>Evolution <small>of <span id="evolution_ipset"></span></small></h2>
 				<p>Each time the IP list is updated, we keep track of its size (both number of entries and number of unique IPs matched).
 				Using this information we can detect what the list maintainers do, get an idea of the list trend
 				and its maintainers habbits.
@@ -1303,32 +1303,32 @@ $(function () {
 					<li><h5><a role="button" data-toggle="collapse" href="#evolutionCollapseOne" aria-expanded="false" aria-controls="evolutionCollapseOne">How many entries does it have? <strong class="caret"></strong></a></h5>
 						<div id="evolutionCollapseOne" class="panel-collapse collapse" role="tabpanel">
 							If you are going to use this IP list as a blocklist / blacklist at a firewall, its size can be important for the <b>performance</b> of the firewall.
-							<p/>
+							<br/>
 							Keep in mind that the performance of Linux netfilter / iptables firewalls that use <strong>ipsets</strong> (like <a href="http://firehol.org/">FireHOL</a> does), is not affected by the size of an ipset. Any number of entries can be added and the firewall will just do one lookup for every packet checked against the ipset. Linux ipsets are affected only by the number of different subnets in an ipset. <a href="http://firehol.org/">FireHOL</a> solves this by <b>automatically reducing</b> the number of unique subnets on all <code>hash:net</code> ipsets (check <a href="https://github.com/ktsaou/firehol/wiki/iprange:-optimizing-ipsets-for-iptables#reducing-ipsets">this article</a> for more information on how this is done).
 						</div>
 					</li>
 					<li><h5><a role="button" data-toggle="collapse" href="#evolutionCollapseTwo" aria-expanded="false" aria-controls="evolutionCollapseTwo">How many unique IPs does it match? <strong class="caret"></strong></a></h5>
 						<div id="evolutionCollapseTwo" class="panel-collapse collapse" role="tabpanel">
 							The number of unique IPs matched by an IP list, determines the <strong>effectiveness</strong> of the blacklist / blocklist.
-							<p/>
+							<br/>
 							Generally, smaller IP lists are more focused and safer to use as firewall blacklists / blocklists. Fewer unique IPs means fewer possible <strong>false positives</strong>.
-							<p/>
+							<br/>
 							On the other hand a very small list will not provide a significant level of protection.
 						</div>
 					</li>
 					<li><h5><a role="button" data-toggle="collapse" href="#evolutionCollapseThree" aria-expanded="false" aria-controls="evolutionCollapseThree">Is it updated frequently and regularly? <strong class="caret"></strong></a></h5>
 						<div id="evolutionCollapseThree" class="panel-collapse collapse" role="tabpanel">
 							We need IP lists that are well maintained, frequently and regularly.
-							<p/>
+							<br/>
 							In the chart below, every point is updated only when the list maintainers add IPs to, or remove IPs from the IP list, so even if the number of unique IPs remains the same, a point in the chart indicates that something changed in it. The exact number of unique IPs added and removed with each update can be seen on the chart next to the one below.
-							<p/>
+							<br/>
 							The frequency of updates is irrelevant to the <strong>retention policy</strong> of the IP list. We will examine its retention below in the sections below.
 						</div>
 					</li>
 					<li><h5><a role="button" data-toggle="collapse" href="#evolutionCollapseFour" aria-expanded="false" aria-controls="evolutionCollapseFour">Does it have a consistent size through time? <strong class="caret"></strong></a></h5>
 						<div id="evolutionCollapseFour" class="panel-collapse collapse" role="tabpanel">
 							We don't want surprises. Sudden increases or decreases is generally an indication of poor maintainance.
-							<p/>
+							<br/>
 							Of course, there are cases where an IP list will by definition have sudden changes in its size.
 						</div>
 					</li>
@@ -1375,7 +1375,7 @@ $(function () {
 			</div>
 			<hr/>
 			<div role="tabpanel" id="country_map">
-				<h2 id="overview-type-links">Country Map <small>of <span id="map_ipset"></span></small></h2>
+				<h2>Country Map <small>of <span id="map_ipset"></span></small></h2>
 				<p>
 				Each time an ipset is updated we check it against
 				the <a href="http://dev.maxmind.com/geoip/geoip2/geolite2/">MaxMind GeoLite2 country</a>,
@@ -1433,7 +1433,7 @@ $(function () {
 			</div>
 			<hr/>
 			<div id="age">
-				<h2 id="overview-type-links">Age of IPs listed <small>in <span id="age_ipset"></span></small></h2>
+				<h2>Age of IPs listed <small>in <span id="age_ipset"></span></small></h2>
 				<p>The age of each IP in the list is shown below. The time shown is calculated in realtime; it will be refreshed as time passes, even if the list is not updated.
 				</p>
 				<p>
@@ -1484,7 +1484,7 @@ $(function () {
 			</div>
 			<hr/>
 			<div id="retention">
-				<h2 id="overview-type-links">Retention Policy <small>of <span id="retention_ipset"></span></small></h2>
+				<h2>Retention Policy <small>of <span id="retention_ipset"></span></small></h2>
 				<p>The retention policy of the list shows the duration IPs were listed, when they were listed. This is calculated every time the list maintainers remove an IP from the list.
 				The chart below shows the retention policy detected, since we started monitoring the list (it is not limited to a certain timeframe).
 				</p>
