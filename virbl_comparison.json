@@ -26,26 +26,26 @@
 	{
 		"name": "dshield_30d",
 		"category": "attacks",
-		"ips": 945152,
+		"ips": 945664,
 		"common": 1
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 326144,
+		"ips": 326656,
 		"common": 1
 	},
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 686582561,
+		"ips": 686582559,
 		"common": 2
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 11054382,
-		"common": 29
+		"ips": 11054893,
+		"common": 30
 	},
 	{
 		"name": "gofferje_sip",
@@ -57,7 +57,7 @@
 		"name": "ib_bluetack_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "ib_bluetack_level1",
@@ -87,12 +87,12 @@
 		"name": "lashback_ubl",
 		"category": "spam",
 		"ips": 587899,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "nixspam",
 		"category": "spam",
-		"ips": 18833,
+		"ips": 18840,
 		"common": 4
 	},
 	{
@@ -102,16 +102,22 @@
 		"common": 3
 	},
 	{
+		"name": "snort_ipfilter",
+		"category": "attacks",
+		"ips": 14036,
+		"common": 1
+	},
+	{
 		"name": "sorbs_dul",
 		"category": "spam",
 		"ips": 350069152,
-		"common": 2
+		"common": 1
 	},
 	{
 		"name": "sorbs_recent_spam",
 		"category": "spam",
 		"ips": 224074,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "spamhaus_edrop",
@@ -130,5 +136,11 @@
 		"category": "abuse",
 		"ips": 930271,
 		"common": 2
+	},
+	{
+		"name": "talosintel_ipfilter",
+		"category": "attacks",
+		"ips": 14106,
+		"common": 1
 	}
 ]
