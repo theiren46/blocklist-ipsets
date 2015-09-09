@@ -3,13 +3,13 @@
 		"name": "alienvault_reputation",
 		"category": "reputation",
 		"ips": 174320,
-		"common": 290
+		"common": 241
 	},
 	{
 		"name": "bds_atif",
 		"category": "reputation",
 		"ips": 14635,
-		"common": 4
+		"common": 1
 	},
 	{
 		"name": "bi_any_2_1d",
@@ -50,19 +50,19 @@
 	{
 		"name": "blocklist_de",
 		"category": "attacks",
-		"ips": 33308,
-		"common": 36
+		"ips": 33279,
+		"common": 34
 	},
 	{
 		"name": "blocklist_de_apache",
 		"category": "attacks",
 		"ips": 23731,
-		"common": 32
+		"common": 30
 	},
 	{
 		"name": "blocklist_de_ftp",
 		"category": "attacks",
-		"ips": 538,
+		"ips": 539,
 		"common": 1
 	},
 	{
@@ -105,19 +105,13 @@
 		"name": "darklist_de",
 		"category": "attacks",
 		"ips": 130386,
-		"common": 2
+		"common": 1
 	},
 	{
 		"name": "dragon_http",
 		"category": "attacks",
 		"ips": 490496,
-		"common": 7
-	},
-	{
-		"name": "dragon_sshpauth",
-		"category": "attacks",
-		"ips": 1636,
-		"common": 1
+		"common": 6
 	},
 	{
 		"name": "dragon_vncprobe",
@@ -140,20 +134,26 @@
 	{
 		"name": "dshield_1d",
 		"category": "attacks",
-		"ips": 80896,
-		"common": 28
+		"ips": 81920,
+		"common": 26
 	},
 	{
 		"name": "dshield_30d",
 		"category": "attacks",
 		"ips": 949760,
-		"common": 121
+		"common": 104
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 325120,
-		"common": 88
+		"ips": 325632,
+		"common": 78
+	},
+	{
+		"name": "et_block",
+		"category": "attacks",
+		"ips": 22757268,
+		"common": 3
 	},
 	{
 		"name": "firehol_level1",
@@ -164,20 +164,20 @@
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 121165,
-		"common": 60
+		"ips": 122156,
+		"common": 57
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 11058493,
-		"common": 309
+		"ips": 11058466,
+		"common": 265
 	},
 	{
 		"name": "gofferje_sip",
 		"category": "attacks",
 		"ips": 1094233,
-		"common": 16
+		"common": 14
 	},
 	{
 		"name": "greensnow",
@@ -195,7 +195,7 @@
 		"name": "ib_bluetack_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 20
+		"common": 15
 	},
 	{
 		"name": "ib_bluetack_edu",
@@ -207,19 +207,19 @@
 		"name": "ib_bluetack_level1",
 		"category": "reputation",
 		"ips": 764993634,
-		"common": 4
+		"common": 3
 	},
 	{
 		"name": "ib_bluetack_level2",
 		"category": "reputation",
 		"ips": 348710251,
-		"common": 21
+		"common": 18
 	},
 	{
 		"name": "ib_bluetack_level3",
 		"category": "reputation",
 		"ips": 139104927,
-		"common": 41
+		"common": 36
 	},
 	{
 		"name": "ib_bluetack_rangetest",
@@ -237,19 +237,13 @@
 		"name": "ib_ciarmy_malicious",
 		"category": "reputation",
 		"ips": 270,
-		"common": 270
+		"common": 221
 	},
 	{
 		"name": "ib_cruzit_web_attacks",
 		"category": "attacks",
 		"ips": 4633,
 		"common": 2
-	},
-	{
-		"name": "ib_isp_charter",
-		"category": "organizations",
-		"ips": 6138112,
-		"common": 1
 	},
 	{
 		"name": "ib_isp_qwest",
@@ -267,7 +261,7 @@
 		"name": "ib_isp_verizon",
 		"category": "organizations",
 		"ips": 15335424,
-		"common": 2
+		"common": 1
 	},
 	{
 		"name": "ib_spamhaus_drop",
@@ -285,7 +279,7 @@
 		"name": "openbl_180d",
 		"category": "attacks",
 		"ips": 15327,
-		"common": 3
+		"common": 2
 	},
 	{
 		"name": "openbl_30d",
@@ -297,7 +291,7 @@
 		"name": "openbl_360d",
 		"category": "attacks",
 		"ips": 28738,
-		"common": 4
+		"common": 3
 	},
 	{
 		"name": "openbl_60d",
@@ -321,7 +315,7 @@
 		"name": "openbl_all",
 		"category": "attacks",
 		"ips": 104710,
-		"common": 4
+		"common": 3
 	},
 	{
 		"name": "packetmail",
@@ -333,13 +327,13 @@
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 37716616,
-		"common": 49
+		"common": 42
 	},
 	{
 		"name": "shunlist",
 		"category": "attacks",
 		"ips": 1066,
-		"common": 34
+		"common": 31
 	},
 	{
 		"name": "sorbs_dul",
@@ -398,13 +392,13 @@
 	{
 		"name": "stopforumspam_90d",
 		"category": "abuse",
-		"ips": 231989,
+		"ips": 232967,
 		"common": 2
 	},
 	{
 		"name": "voipbl",
 		"category": "attacks",
 		"ips": 12147,
-		"common": 7
+		"common": 6
 	}
 ]
