@@ -1268,12 +1268,15 @@ $(function () {
 	var ipset = $.QueryString["ipset"];
 	var home = 0;
 
+	var canonical = document.createElement('link');
+	canonical.rel = 'canonical';
+	canonical.href = 'http://iplists.firehol.org/' + ((ipset)?('?ipset=' + ipset):(''));
+	document.head.appendChild(canonical);
+
 	if(!ipset) {
 		ipset = "firehol_level1";
 		home  = 1;
 	}
-
-	$('link[rel="canonical"]').attr('href', 'http://iplists.firehol.org/' + ((ipset)?('?ipset=' + ipset):('')));
 
 	// load the ipset and update the page
 	$.getJSON(ipset + '.json', function(data) {
@@ -1295,8 +1298,8 @@ $(function () {
 			metadescription.content = ipset + ((data.category)?(' ' + data.category + ' list'):('')) + ((data.maintainer)?(' by ' + data.maintainer):' IP list') + ': updates, changes history, retention policy, geographic coverage, comparison with other IP lists.';
 			metakeywords.content = ((data.maintainer)?(data.maintainer + ', '):'') + ipset + ', blocklist, blacklist, iptables, ipset, firewall, malware, abuse, attack';
 		}
-		document.getElementsByTagName('head')[0].appendChild(metadescription);
-		document.getElementsByTagName('head')[0].appendChild(metakeywords);
+		document.head.appendChild(metadescription);
+		document.head.appendChild(metakeywords);
 
 		// console.log(data);
 		// set the content on the page
