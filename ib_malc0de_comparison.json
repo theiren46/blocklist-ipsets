@@ -3,13 +3,19 @@
 		"name": "bds_atif",
 		"category": "reputation",
 		"ips": 14635,
-		"common": 36
+		"common": 55
 	},
 	{
 		"name": "cleanmx_viruses",
 		"category": "spam",
 		"ips": 2707,
-		"common": 4
+		"common": 36
+	},
+	{
+		"name": "dragon_http",
+		"category": "attacks",
+		"ips": 496128,
+		"common": 1
 	},
 	{
 		"name": "dshield_30d",
@@ -18,10 +24,22 @@
 		"common": 1
 	},
 	{
+		"name": "firehol_anonymous",
+		"category": "anonymizers",
+		"ips": 93512,
+		"common": 1
+	},
+	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 11047646,
-		"common": 39
+		"ips": 11047641,
+		"common": 107
+	},
+	{
+		"name": "firehol_proxies",
+		"category": "anonymizers",
+		"ips": 32219,
+		"common": 1
 	},
 	{
 		"name": "gofferje_sip",
@@ -33,37 +51,43 @@
 		"name": "ib_bluetack_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 4
+		"common": 6
+	},
+	{
+		"name": "ib_bluetack_edu",
+		"category": "organizations",
+		"ips": 227983904,
+		"common": 1
 	},
 	{
 		"name": "ib_bluetack_level1",
 		"category": "reputation",
 		"ips": 764993634,
-		"common": 5
+		"common": 7
 	},
 	{
 		"name": "ib_bluetack_level2",
 		"category": "reputation",
 		"ips": 348710251,
-		"common": 1
+		"common": 7
 	},
 	{
 		"name": "ib_bluetack_level3",
 		"category": "reputation",
 		"ips": 139104927,
-		"common": 10
+		"common": 20
 	},
 	{
 		"name": "ib_bluetack_rangetest",
 		"category": "reputation",
 		"ips": 4346058,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "ib_bluetack_spyware",
 		"category": "reputation",
 		"ips": 339021,
-		"common": 3
+		"common": 4
 	},
 	{
 		"name": "ib_org_steam",
@@ -75,18 +99,108 @@
 		"name": "malc0de",
 		"category": "malware",
 		"ips": 160,
-		"common": 39
+		"common": 107
+	},
+	{
+		"name": "malwaredomainlist",
+		"category": "malware",
+		"ips": 1294,
+		"common": 4
+	},
+	{
+		"name": "proxyrss_30d",
+		"category": "anonymizers",
+		"ips": 16750,
+		"common": 1
+	},
+	{
+		"name": "proxyspy_30d",
+		"category": "anonymizers",
+		"ips": 5895,
+		"common": 1
+	},
+	{
+		"name": "proxz_30d",
+		"category": "anonymizers",
+		"ips": 2702,
+		"common": 1
 	},
 	{
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 37716616,
-		"common": 7
+		"common": 19
+	},
+	{
+		"name": "ri_web_proxies_30d",
+		"category": "anonymizers",
+		"ips": 6535,
+		"common": 1
+	},
+	{
+		"name": "snort_ipfilter",
+		"category": "attacks",
+		"ips": 11930,
+		"common": 2
+	},
+	{
+		"name": "sorbs_anonymizers",
+		"category": "spam",
+		"ips": 596404,
+		"common": 1
+	},
+	{
+		"name": "sorbs_dul",
+		"category": "spam",
+		"ips": 350053863,
+		"common": 1
+	},
+	{
+		"name": "stopforumspam",
+		"category": "abuse",
+		"ips": 231174,
+		"common": 1
+	},
+	{
+		"name": "stopforumspam_180d",
+		"category": "abuse",
+		"ips": 494569,
+		"common": 1
+	},
+	{
+		"name": "stopforumspam_30d",
+		"category": "abuse",
+		"ips": 97861,
+		"common": 1
+	},
+	{
+		"name": "stopforumspam_365d",
+		"category": "abuse",
+		"ips": 928738,
+		"common": 1
+	},
+	{
+		"name": "stopforumspam_90d",
+		"category": "abuse",
+		"ips": 231202,
+		"common": 1
+	},
+	{
+		"name": "stopforumspam_toxic",
+		"category": "abuse",
+		"ips": 514190,
+		"common": 1
+	},
+	{
+		"name": "talosintel_ipfilter",
+		"category": "attacks",
+		"ips": 11734,
+		"common": 2
 	},
 	{
 		"name": "vxvault",
 		"category": "malware",
 		"ips": 58,
-		"common": 1
+		"common": 19
 	}
 ]
