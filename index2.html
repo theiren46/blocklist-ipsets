@@ -10,22 +10,18 @@
 	<meta name="google-site-verification" content="ntBqCHwo8otS8DeWXyNXEOjTfOECbTqVw-NhDsKczAY" />
 	<meta name="msvalidate.01" content="896DCA31C9A664CE359FCF1A645DD476" />
 	
-	<link rel="icon" type="image/png" href="//ktsaou.github.io/blocklist-ipsets/web-shield-512.png" sizes="512x512">
-	<link rel="icon" type="image/png" href="//ktsaou.github.io/blocklist-ipsets/web-shield-256.png" sizes="256x256">
-	<link rel="icon" type="image/png" href="//ktsaou.github.io/blocklist-ipsets/web-shield-128.png" sizes="128x128">
-	<link rel="icon" type="image/png" href="//ktsaou.github.io/blocklist-ipsets/web-shield-64.png" sizes="64x64">
-	<link rel="icon" type="image/png" href="//ktsaou.github.io/blocklist-ipsets/web-shield-48.png" sizes="48x48">
-	<link rel="icon" type="image/png" href="//ktsaou.github.io/blocklist-ipsets/web-shield-32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="//ktsaou.github.io/blocklist-ipsets/web-shield-24.png" sizes="24x24">
-	<link rel="icon" type="image/png" href="//ktsaou.github.io/blocklist-ipsets/web-shield-16.png" sizes="16x16">
-
-	<!-- this causes the page not to be indexed by google
-	<link rel="canonical" href="http://iplists.firehol.org" />
-	-->
+	<link rel="icon" type="image/png" href="//iplists.firehol.org/web-shield-512.png" sizes="512x512">
+	<link rel="icon" type="image/png" href="//iplists.firehol.org/web-shield-256.png" sizes="256x256">
+	<link rel="icon" type="image/png" href="//iplists.firehol.org/web-shield-128.png" sizes="128x128">
+	<link rel="icon" type="image/png" href="//iplists.firehol.org/web-shield-64.png" sizes="64x64">
+	<link rel="icon" type="image/png" href="//iplists.firehol.org/web-shield-48.png" sizes="48x48">
+	<link rel="icon" type="image/png" href="//iplists.firehol.org/web-shield-32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="//iplists.firehol.org/web-shield-24.png" sizes="24x24">
+	<link rel="icon" type="image/png" href="//iplists.firehol.org/web-shield-16.png" sizes="16x16">
 
 	<!-- <meta property="og:image" content="https://ktsaou.github.io/blocklist-ipsets/web-shield-512.png"/> -->
 	<meta property="og:locale" content="en_US" />
-	<meta property="og:image" content="https://ktsaou.github.io/blocklist-ipsets/iplist-map.png?v4"/>
+	<meta property="og:image" content="https://iplists.firehol.org/iplist-map.png?v4"/>
 	<meta property="og:url" content="http://iplists.firehol.org/"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:site_name" content="FireHOL IP Lists Analytics"/>
@@ -1278,11 +1274,13 @@ $(function () {
 		ipset="firehol_level1";
 		home = 1;
 	}
-	//else {
-	// this causes the page not to be indexed by google
-	//	$('link[rel="canonical"]').attr('href', 'http://iplists.firehol.org/?ipset=' + ipset);
-	//}
-
+	
+	// add canonical URL
+	HtmlGenericControl canonical = new HtmlGenericControl("link");
+	canonical.Attributes.Add("rel", "canonical");
+	canonical.Attributes.Add("href", 'http://iplists.firehol.org/' + ((ipset)?('?ipset=' + ipset):('')));
+	Page.Header.Controls.Add(canonical);
+	
 	// load the ipset and update the page
 	$.getJSON(ipset + '.json', function(data) {
 		ipset_data = data;
