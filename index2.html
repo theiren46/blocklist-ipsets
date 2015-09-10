@@ -28,6 +28,60 @@
 	<meta property="og:title" content="FireHOL IP Lists Analytics"/>
 	<meta property="og:description" content="InfoSec analytics for malware, abuse and attacks IP Lists: size over time, retention policy, geographic coverage, comparisons and overlaps. More than 100 IP lists analyzed." />
 
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!--	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.8.1/bootstrap-table.min.css">
+	<link rel="stylesheet" href="typeahead.css">
+
+	<style type='text/css'>
+		#container {
+			height: 500px; 
+			width: 800px; 
+			margin: 0 auto; 
+		}
+		.highcharts-tooltip>span {
+			padding: 10px;
+			white-space: normal !important;
+			width: 200px;
+		}
+		.loading {
+			margin-top: 10em;
+			text-align: center;
+			color: gray;
+		}
+		.f32 .flag {
+			vertical-align: middle !important;
+		}
+		body {
+			padding-top: 70px;
+			position: relative;
+		}
+		@media screen and (max-width: 768px) {
+			body { padding-top: 60px; }
+		}
+		.scrollable-menu {
+			height: auto;
+			max-height: 500px;
+			overflow-x: hidden;
+		}
+		.borderless tbody tr td, .borderless tbody tr th, .borderless thead tr th, table {
+			border: none !important;
+			padding: 0px !important;
+		}
+		.popover {
+			min-width: 250px;
+			max-width: 500px;
+			width: auto;
+		}
+
+		@media print {    
+			.no-print, .no-print * {
+				display: none !important;
+			}
+		}
+
+	</style>
+
 </head>
 <body data-spy="scroll" data-target=".scrollspy" data-offset="250">
 
@@ -517,63 +571,9 @@
 </body>
 </html>
 
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<!--	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.8.1/bootstrap-table.min.css">
-	<link rel="stylesheet" href="typeahead.css">
-
 	<script type="text/javascript">var switchTo5x=true;</script>
 	<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
 	<script type="text/javascript">stLight.options({publisher: "5abdd483-f03c-4fd5-a791-429193a220a1", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-
-	<style type='text/css'>
-		#container {
-			height: 500px; 
-			width: 800px; 
-			margin: 0 auto; 
-		}
-		.highcharts-tooltip>span {
-			padding: 10px;
-			white-space: normal !important;
-			width: 200px;
-		}
-		.loading {
-			margin-top: 10em;
-			text-align: center;
-			color: gray;
-		}
-		.f32 .flag {
-			vertical-align: middle !important;
-		}
-		body {
-			padding-top: 70px;
-			position: relative;
-		}
-		@media screen and (max-width: 768px) {
-			body { padding-top: 60px; }
-		}
-		.scrollable-menu {
-			height: auto;
-			max-height: 500px;
-			overflow-x: hidden;
-		}
-		.borderless tbody tr td, .borderless tbody tr th, .borderless thead tr th, table {
-			border: none !important;
-			padding: 0px !important;
-		}
-		.popover {
-			min-width: 250px;
-			max-width: 500px;
-			width: auto;
-		}
-
-		@media print {    
-			.no-print, .no-print * {
-				display: none !important;
-			}
-		}
-
-	</style>
 
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
