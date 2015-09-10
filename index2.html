@@ -1269,18 +1269,12 @@ $(function () {
 	var home = 0;
 
 	if(!ipset) {
-		//document.location = $(location).attr('pathname') + '?ipset=firehol_level1';
-		//return;
-		ipset="firehol_level1";
-		home = 1;
+		ipset = "firehol_level1";
+		home  = 1;
 	}
-	
-	// add canonical URL
-	HtmlGenericControl canonical = new HtmlGenericControl("link");
-	canonical.Attributes.Add("rel", "canonical");
-	canonical.Attributes.Add("href", 'http://iplists.firehol.org/' + ((ipset)?('?ipset=' + ipset):('')));
-	Page.Header.Controls.Add(canonical);
-	
+
+	$('link[rel="canonical"]').attr('href', 'http://iplists.firehol.org/' + ((ipset)?('?ipset=' + ipset):('')));
+
 	// load the ipset and update the page
 	$.getJSON(ipset + '.json', function(data) {
 		ipset_data = data;
