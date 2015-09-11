@@ -14,7 +14,7 @@
 	{
 		"name": "bi_any_2_1d",
 		"category": "attacks",
-		"ips": 1203,
+		"ips": 1191,
 		"common": 3
 	},
 	{
@@ -56,26 +56,26 @@
 	{
 		"name": "blocklist_de",
 		"category": "attacks",
-		"ips": 26730,
-		"common": 35
+		"ips": 26801,
+		"common": 36
 	},
 	{
 		"name": "blocklist_de_apache",
 		"category": "attacks",
-		"ips": 17830,
+		"ips": 17888,
 		"common": 29
 	},
 	{
 		"name": "blocklist_de_imap",
 		"category": "attacks",
-		"ips": 1219,
-		"common": 3
+		"ips": 1222,
+		"common": 4
 	},
 	{
 		"name": "blocklist_de_mail",
 		"category": "attacks",
-		"ips": 15742,
-		"common": 3
+		"ips": 15747,
+		"common": 4
 	},
 	{
 		"name": "blocklist_de_sip",
@@ -86,13 +86,13 @@
 	{
 		"name": "blocklist_de_ssh",
 		"category": "attacks",
-		"ips": 2509,
+		"ips": 2517,
 		"common": 2
 	},
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 22731,
+		"ips": 22780,
 		"common": 3
 	},
 	{
@@ -135,24 +135,30 @@
 		"name": "dronebl_anonymizers",
 		"category": "anonymizers",
 		"ips": 166412,
-		"common": 1
+		"common": 2
+	},
+	{
+		"name": "dshield",
+		"category": "attacks",
+		"ips": 5120,
+		"common": 3
 	},
 	{
 		"name": "dshield_1d",
 		"category": "attacks",
-		"ips": 75776,
+		"ips": 76288,
 		"common": 26
 	},
 	{
 		"name": "dshield_30d",
 		"category": "attacks",
-		"ips": 925440,
+		"ips": 925696,
 		"common": 118
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 341760,
+		"ips": 340736,
 		"common": 87
 	},
 	{
@@ -174,16 +180,22 @@
 		"common": 1
 	},
 	{
+		"name": "firehol_level1",
+		"category": "attacks",
+		"ips": 686441582,
+		"common": 3
+	},
+	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 109822,
-		"common": 59
+		"ips": 110400,
+		"common": 61
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 11031207,
-		"common": 318
+		"ips": 11031469,
+		"common": 324
 	},
 	{
 		"name": "gofferje_sip",
@@ -195,7 +207,7 @@
 		"name": "greensnow",
 		"category": "attacks",
 		"ips": 2700,
-		"common": 8
+		"common": 9
 	},
 	{
 		"name": "ib_bluetack_ads",
@@ -207,7 +219,13 @@
 		"name": "ib_bluetack_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 16
+		"common": 17
+	},
+	{
+		"name": "ib_bluetack_edu",
+		"category": "organizations",
+		"ips": 227983904,
+		"common": 1
 	},
 	{
 		"name": "ib_bluetack_level1",
@@ -375,7 +393,7 @@
 		"name": "stopforumspam_365d",
 		"category": "abuse",
 		"ips": 928738,
-		"common": 7
+		"common": 8
 	},
 	{
 		"name": "stopforumspam_90d",
