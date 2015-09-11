@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<title>FireHOL IP Lists | IP Blacklists | IP Blocklists</title>
+	<title>FireHOL IP Lists | IP Blacklists | IP Blocklists | IP Reputation | IP Data Feed</title>
 	
 	<meta name="google-site-verification" content="ntBqCHwo8otS8DeWXyNXEOjTfOECbTqVw-NhDsKczAY" />
 	<meta name="msvalidate.01" content="896DCA31C9A664CE359FCF1A645DD476" />
@@ -24,8 +24,8 @@
 	<meta property="og:image" content="https://iplists.firehol.org/iplist-map.png?v4"/>
 	<meta property="og:url" content="http://iplists.firehol.org/"/>
 	<meta property="og:type" content="website"/>
-	<meta property="og:site_name" content="FireHOL IP Lists Analytics"/>
-	<meta property="og:title" content="FireHOL IP Lists Analytics"/>
+	<meta property="og:site_name" content="FireHOL IP Lists"/>
+	<meta property="og:title" content="FireHOL IP Lists | IP Blacklists | IP Blocklists | IP Reputation | IP Data Feed"/>
 	<meta property="og:description" content="InfoSec analytics for malware, abuse and attacks IP Lists: size over time, retention policy, geographic coverage, comparisons and overlaps. More than 100 IP lists analyzed." />
 
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -1289,12 +1289,12 @@ $(function () {
 		metakeywords.name = "keywords";
 
 		if(home) {
-			document.title = 'FireHOL IP Lists Analytics';
+			document.title = 'FireHOL IP Lists | IP Blacklists | IP Blocklists | IP Reputation | IP Data Feed';
 			metadescription.content = 'InfoSec analytics for malware, abuse and attacks IP Lists: size over time, retention policy, geographic coverage, comparisons and overlaps. More than 100 IP lists analyzed.';
 			metakeywords.content = 'blocklists, blacklists, iptables ipsets, firewall, malware, abuse, attacks';
 		}
 		else {
-			document.title = ipset + ((data.maintainer)?(' by ' + data.maintainer):'') + ', at FireHOL IP Lists Analytics';
+			document.title = ipset + ((data.maintainer)?(' by ' + data.maintainer):'') + ', at FireHOL IP Lists';
 			metadescription.content = ipset + ((data.category)?(' ' + data.category + ' list'):('')) + ((data.maintainer)?(' by ' + data.maintainer):' IP list') + ': updates, changes history, retention policy, geographic coverage, comparison with other IP lists.';
 			metakeywords.content = ((data.maintainer)?(data.maintainer + ', '):'') + ipset + ', blocklist, blacklist, iptables, ipset, firewall, malware, abuse, attack';
 		}
