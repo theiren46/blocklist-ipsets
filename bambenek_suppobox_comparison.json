@@ -6,16 +6,22 @@
 		"common": 1
 	},
 	{
+		"name": "bambenek_bebloh",
+		"category": "malware",
+		"ips": 3,
+		"common": 1
+	},
+	{
 		"name": "bambenek_c2",
 		"category": "malware",
 		"ips": 257,
-		"common": 126
+		"common": 127
 	},
 	{
 		"name": "bambenek_cryptowall",
 		"category": "malware",
 		"ips": 16,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "bambenek_matsnu",
@@ -30,9 +36,15 @@
 		"common": 4
 	},
 	{
+		"name": "bambenek_simda",
+		"category": "malware",
+		"ips": 64,
+		"common": 1
+	},
+	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 20560,
+		"ips": 20529,
 		"common": 1
 	},
 	{
@@ -51,13 +63,13 @@
 		"name": "firehol_level1",
 		"category": "attacks",
 		"ips": 686606135,
-		"common": 126
+		"common": 127
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 11046189,
-		"common": 126
+		"ips": 11046191,
+		"common": 127
 	},
 	{
 		"name": "gofferje_sip",
@@ -87,13 +99,13 @@
 		"name": "ib_bluetack_level2",
 		"category": "reputation",
 		"ips": 348710251,
-		"common": 7
+		"common": 8
 	},
 	{
 		"name": "ib_bluetack_level3",
 		"category": "reputation",
 		"ips": 139104927,
-		"common": 17
+		"common": 16
 	},
 	{
 		"name": "ib_bluetack_ms",
@@ -105,19 +117,25 @@
 		"name": "ib_bluetack_rangetest",
 		"category": "reputation",
 		"ips": 4346058,
-		"common": 8
+		"common": 10
+	},
+	{
+		"name": "ib_bluetack_spider",
+		"category": "organizations",
+		"ips": 860168,
+		"common": 1
 	},
 	{
 		"name": "ib_bluetack_spyware",
 		"category": "reputation",
 		"ips": 339021,
-		"common": 3
+		"common": 4
 	},
 	{
 		"name": "ib_yoyo_adservers",
 		"category": "organizations",
 		"ips": 13063,
-		"common": 15
+		"common": 16
 	},
 	{
 		"name": "malwaredomainlist",
@@ -153,6 +171,6 @@
 		"name": "yoyo_adservers",
 		"category": "organizations",
 		"ips": 13775,
-		"common": 15
+		"common": 16
 	}
 ]
