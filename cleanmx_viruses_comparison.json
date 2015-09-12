@@ -14,8 +14,8 @@
 	{
 		"name": "bambenek_c2",
 		"category": "malware",
-		"ips": 234,
-		"common": 16
+		"ips": 236,
+		"common": 17
 	},
 	{
 		"name": "bambenek_cryptowall",
@@ -38,8 +38,8 @@
 	{
 		"name": "bambenek_simda",
 		"category": "malware",
-		"ips": 62,
-		"common": 9
+		"ips": 63,
+		"common": 10
 	},
 	{
 		"name": "bambenek_suppobox",
@@ -51,7 +51,7 @@
 		"name": "bds_atif",
 		"category": "reputation",
 		"ips": 14635,
-		"common": 92
+		"common": 94
 	},
 	{
 		"name": "blocklist_de",
@@ -93,7 +93,13 @@
 		"name": "blocklist_net_ua",
 		"category": "abuse",
 		"ips": 21139,
-		"common": 77
+		"common": 76
+	},
+	{
+		"name": "bogons",
+		"category": "unroutable",
+		"ips": 592708608,
+		"common": 1
 	},
 	{
 		"name": "botscout_30d",
@@ -123,7 +129,7 @@
 		"name": "dragon_http",
 		"category": "attacks",
 		"ips": 482304,
-		"common": 5
+		"common": 6
 	},
 	{
 		"name": "dronebl_anonymizers",
@@ -147,7 +153,7 @@
 		"name": "dronebl_irc_drones",
 		"category": "abuse",
 		"ips": 93974,
-		"common": 3
+		"common": 2
 	},
 	{
 		"name": "dronebl_worms_bots",
@@ -171,13 +177,13 @@
 		"name": "dshield_30d",
 		"category": "attacks",
 		"ips": 928512,
-		"common": 51
+		"common": 52
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
 		"ips": 350720,
-		"common": 19
+		"common": 20
 	},
 	{
 		"name": "et_block",
@@ -200,43 +206,49 @@
 	{
 		"name": "firehol_anonymous",
 		"category": "anonymizers",
-		"ips": 93767,
+		"ips": 93772,
 		"common": 3
 	},
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 686393174,
-		"common": 17
+		"ips": 686393176,
+		"common": 19
 	},
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 122661,
+		"ips": 122655,
 		"common": 13
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 11026068,
-		"common": 3183
+		"ips": 11026078,
+		"common": 3196
 	},
 	{
 		"name": "firehol_proxies",
 		"category": "anonymizers",
-		"ips": 32510,
+		"ips": 32515,
 		"common": 3
+	},
+	{
+		"name": "fullbogons",
+		"category": "unroutable",
+		"ips": 663034472,
+		"common": 1
 	},
 	{
 		"name": "gofferje_sip",
 		"category": "attacks",
 		"ips": 1094240,
-		"common": 48
+		"common": 49
 	},
 	{
 		"name": "greensnow",
 		"category": "attacks",
-		"ips": 731,
+		"ips": 721,
 		"common": 1
 	},
 	{
@@ -249,7 +261,7 @@
 		"name": "ib_bluetack_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 239
+		"common": 240
 	},
 	{
 		"name": "ib_bluetack_edu",
@@ -262,6 +274,12 @@
 		"category": "reputation",
 		"ips": 9177856,
 		"common": 2
+	},
+	{
+		"name": "ib_bluetack_iana_private",
+		"category": "unroutable",
+		"ips": 51643638,
+		"common": 1
 	},
 	{
 		"name": "ib_bluetack_level1",
@@ -297,7 +315,7 @@
 		"name": "ib_bluetack_rangetest",
 		"category": "reputation",
 		"ips": 4346058,
-		"common": 114
+		"common": 115
 	},
 	{
 		"name": "ib_bluetack_spider",
@@ -315,6 +333,12 @@
 		"name": "ib_bluetack_webexploit",
 		"category": "reputation",
 		"ips": 1450,
+		"common": 1
+	},
+	{
+		"name": "ib_cidr_report_bogons",
+		"category": "unroutable",
+		"ips": 606778760,
 		"common": 1
 	},
 	{
@@ -357,7 +381,7 @@
 		"name": "ib_malc0de",
 		"category": "malware",
 		"ips": 198,
-		"common": 58
+		"common": 60
 	},
 	{
 		"name": "ib_onion_router",
@@ -405,7 +429,7 @@
 		"name": "malc0de",
 		"category": "malware",
 		"ips": 236,
-		"common": 73
+		"common": 75
 	},
 	{
 		"name": "malwaredomainlist",
@@ -483,7 +507,7 @@
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 37737096,
-		"common": 577
+		"common": 582
 	},
 	{
 		"name": "ri_connect_proxies_30d",
@@ -512,7 +536,7 @@
 	{
 		"name": "socks_proxy_30d",
 		"category": "anonymizers",
-		"ips": 2326,
+		"ips": 2328,
 		"common": 1
 	},
 	{
@@ -591,19 +615,19 @@
 		"name": "stopforumspam_toxic",
 		"category": "abuse",
 		"ips": 514190,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "talosintel_ipfilter",
 		"category": "attacks",
 		"ips": 9759,
-		"common": 82
+		"common": 83
 	},
 	{
 		"name": "voipbl",
 		"category": "attacks",
 		"ips": 12201,
-		"common": 3
+		"common": 2
 	},
 	{
 		"name": "vxvault",
