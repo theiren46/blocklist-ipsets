@@ -2,7 +2,7 @@
 	{
 		"name": "alienvault_reputation",
 		"category": "reputation",
-		"ips": 174526,
+		"ips": 170334,
 		"common": 1
 	},
 	{
@@ -15,7 +15,7 @@
 		"name": "bambenek_c2",
 		"category": "malware",
 		"ips": 264,
-		"common": 113
+		"common": 139
 	},
 	{
 		"name": "bambenek_cryptowall",
@@ -50,7 +50,7 @@
 	{
 		"name": "cleanmx_viruses",
 		"category": "spam",
-		"ips": 3196,
+		"ips": 3289,
 		"common": 7
 	},
 	{
@@ -60,16 +60,22 @@
 		"common": 1
 	},
 	{
+		"name": "et_block",
+		"category": "attacks",
+		"ips": 22757270,
+		"common": 1
+	},
+	{
 		"name": "firehol_level1",
 		"category": "attacks",
 		"ips": 686393204,
-		"common": 113
+		"common": 139
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 11027047,
-		"common": 113
+		"ips": 11027141,
+		"common": 139
 	},
 	{
 		"name": "gofferje_sip",
@@ -78,10 +84,16 @@
 		"common": 1
 	},
 	{
+		"name": "ib_abuse_zeus",
+		"category": "malware",
+		"ips": 225,
+		"common": 1
+	},
+	{
 		"name": "ib_bluetack_ads",
 		"category": "organizations",
 		"ips": 888645,
-		"common": 2
+		"common": 3
 	},
 	{
 		"name": "ib_bluetack_bogons",
@@ -99,13 +111,13 @@
 		"name": "ib_bluetack_level2",
 		"category": "reputation",
 		"ips": 348710251,
-		"common": 6
+		"common": 7
 	},
 	{
 		"name": "ib_bluetack_level3",
 		"category": "reputation",
 		"ips": 139104927,
-		"common": 15
+		"common": 21
 	},
 	{
 		"name": "ib_bluetack_rangetest",
@@ -129,7 +141,7 @@
 		"name": "ib_yoyo_adservers",
 		"category": "organizations",
 		"ips": 13063,
-		"common": 15
+		"common": 16
 	},
 	{
 		"name": "malwaredomainlist",
@@ -141,7 +153,7 @@
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 37737096,
-		"common": 25
+		"common": 35
 	},
 	{
 		"name": "snort_ipfilter",
@@ -165,6 +177,12 @@
 		"name": "yoyo_adservers",
 		"category": "organizations",
 		"ips": 13769,
-		"common": 15
+		"common": 16
+	},
+	{
+		"name": "zeus",
+		"category": "malware",
+		"ips": 213,
+		"common": 1
 	}
 ]
