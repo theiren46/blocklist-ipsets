@@ -1271,10 +1271,12 @@ $(function () {
 	var ipset = $.QueryString["ipset"];
 	var home = 0;
 
-	var canonical = document.createElement('link');
-	canonical.rel = 'canonical';
-	canonical.href = 'http://iplists.firehol.org/' + ((ipset)?('?ipset=' + ipset):(''));
-	document.head.appendChild(canonical);
+	if(window.location.hostname != 'iplists.firehol.org') {
+		var canonical = document.createElement('link');
+		canonical.rel = 'canonical';
+		canonical.href = 'http://iplists.firehol.org/' + ((ipset)?('?ipset=' + ipset):(''));
+		document.head.appendChild(canonical);
+	}
 
 	if(!ipset) {
 		ipset = "firehol_level1";
