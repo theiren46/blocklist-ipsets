@@ -6,9 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	
-	<title>FireHOL IP Lists | IP Blacklists | IP Blocklists | IP Reputation Feeds</title>
-	<meta name="description" content="Cybercrime, Fraud, Botnets, Command & Control, Μalware, Virus, Abuse, Attacks, Open Proxies, Anonymizing, IP Lists, IP blacklists, IP blocklists, IP Reputation.">
-	<meta name="keywords" content="IP blocklists, IP blacklists, IP Reputation Feeds, iptables ipsets, firewall blacklist, firewall blocklist, malware, abuse, attacks, proxies, anonymizers, SIEM">
+	<title>FireHOL IP Lists | IP Blacklist | Cybercrime | Internet Fraud</title>
+	<meta name="description" content="IP lists tracking Cybercrime, Internet Fraud, Botnet, Μalware, Virus, Abuse, Attack, Open Proxy, VPN. Download IP blacklist, IP blocklist, IP reputation, for SIEM, firewall, or IDS.">
+	<meta name="keywords" content="IP blocklist, IP blacklist, IP Reputation, iptables ipset, firewall blacklist, firewall blocklist, malware, abuse, attack, open proxies, anonymizers, SIEM, IDS">
 
 	<meta name="google-site-verification" content="ntBqCHwo8otS8DeWXyNXEOjTfOECbTqVw-NhDsKczAY" />
 	<meta name="msvalidate.01" content="896DCA31C9A664CE359FCF1A645DD476" />
@@ -88,59 +88,61 @@
 </head>
 <body data-spy="scroll" data-target=".scrollspy" data-offset="250">
 
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-	<div class="container">
-		<div class="navbar-header">
-			 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#scrollspy_navbar"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="http://iplists.firehol.org">FireHOL IP Lists</a>
-		</div>
-		
-		<div class="collapse navbar-collapse scrollspy" id="scrollspy_navbar">
-			<ul class="nav navbar-nav">
-				<li>
-					<a href="#" class="active" id="header_ipset">current_ipset</a>
-				</li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="current_view">About <strong class="caret"></strong></a>
-					<ul class="dropdown-menu scrollable-menu inpagemenu" role="menu">
-						<li><a href="#about">About</a></li>
-						<li><a href="#history">Evolution</a></li>
-						<li><a href="#country_map">Map</a></li>
-						<li><a href="#age">Age</a></li>
-						<li><a href="#retention">Retention</a></li>
-						<li><a href="#comparison">Overlaps</a></li>
-						<li><a href="#disqus">Comments</a></li>
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="navbar-header">
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#scrollspy_navbar"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="http://iplists.firehol.org">FireHOL IP Lists</a>
+				</div>
+				
+				<div class="collapse navbar-collapse scrollspy" id="scrollspy_navbar">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="#" class="active" id="header_ipset">current_ipset</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="current_view">About <strong class="caret"></strong></a>
+							<ul class="dropdown-menu scrollable-menu inpagemenu" role="menu">
+								<li><a href="#about">About</a></li>
+								<li><a href="#history">Evolution</a></li>
+								<li><a href="#country_map">Map</a></li>
+								<li><a href="#age">Age</a></li>
+								<li><a href="#retention">Retention</a></li>
+								<li><a href="#comparison">Overlaps</a></li>
+								<li><a href="#disqus">Comments</a></li>
+							</ul>
+						</li>
 					</ul>
-				</li>
-			</ul>
-			<ul class="nav navbar-nav navbar-right">
-				<li class="hidden-xs">
-					<form id="search_form" class="navbar-form navbar-left navbar-input-group " role="search">
-						<div class="form-group">
-							<div class="input-group">
-								<span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
-								<input id="search_input" class="form-control typeahead" type="text" placeholder="search list name or maintainer" style="width: 290px;">
-							</div>
-						</div>
-					</form>
-				</li>
-				<li class="dropdown hidden-sm hidden-md hidden-lg">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="all_label">All Lists <strong class="caret"></strong></a>
-					<ul class="dropdown-menu scrollable-menu" role="menu" id="all_lists">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="hidden-xs">
+							<form id="search_form" class="navbar-form navbar-left navbar-input-group " role="search">
+								<div class="form-group">
+									<div class="input-group">
+										<span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+										<input id="search_input" class="form-control typeahead" type="text" placeholder="search list name or maintainer" style="width: 290px;">
+									</div>
+								</div>
+							</form>
+						</li>
+						<li class="dropdown hidden-sm hidden-md hidden-lg">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="all_label">All Lists <strong class="caret"></strong></a>
+							<ul class="dropdown-menu scrollable-menu" role="menu" id="all_lists">
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <strong class="caret"></strong></a>
+							<ul class="dropdown-menu scrollable-menu" role="menu" id="links">
+								<li><a href="http://firehol.org/">FireHOL Home</a></li>
+								<li><a href="https://github.com/ktsaou/blocklist-ipsets/">IPSet Files in GitHub</a></li>
+							</ul>
+						</li>
 					</ul>
-				</li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <strong class="caret"></strong></a>
-					<ul class="dropdown-menu scrollable-menu" role="menu" id="links">
-						<li><a href="http://firehol.org/">FireHOL Home</a></li>
-						<li><a href="https://github.com/ktsaou/blocklist-ipsets/">IPSet Files in GitHub</a></li>
-					</ul>
-				</li>
-			</ul>
+				</div>
+				
+			</nav>
 		</div>
 	</div>
-</nav>
-
-<div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column" id="jumbotron">
 			<div class="jumbotron" id="top">
