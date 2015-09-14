@@ -110,13 +110,13 @@
 	{
 		"name": "blocklist_de_ssh",
 		"category": "attacks",
-		"ips": 1947,
+		"ips": 1955,
 		"common": 2
 	},
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 20637,
+		"ips": 20616,
 		"common": 5
 	},
 	{
@@ -146,7 +146,7 @@
 	{
 		"name": "bruteforceblocker",
 		"category": "attacks",
-		"ips": 1497,
+		"ips": 1495,
 		"common": 7
 	},
 	{
@@ -222,16 +222,28 @@
 		"common": 28
 	},
 	{
+		"name": "dshield",
+		"category": "attacks",
+		"ips": 5120,
+		"common": 256
+	},
+	{
+		"name": "dshield_1d",
+		"category": "attacks",
+		"ips": 88832,
+		"common": 256
+	},
+	{
 		"name": "dshield_30d",
 		"category": "attacks",
-		"ips": 951296,
-		"common": 2048
+		"ips": 952320,
+		"common": 2304
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 350976,
-		"common": 512
+		"ips": 352256,
+		"common": 768
 	},
 	{
 		"name": "et_block",
@@ -267,19 +279,19 @@
 		"name": "firehol_level1",
 		"category": "attacks",
 		"ips": 686391130,
-		"common": 2
+		"common": 258
 	},
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 124297,
-		"common": 17
+		"ips": 124807,
+		"common": 273
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 11034388,
-		"common": 3976
+		"ips": 11035408,
+		"common": 4232
 	},
 	{
 		"name": "firehol_proxies",
@@ -368,8 +380,8 @@
 	{
 		"name": "nixspam",
 		"category": "spam",
-		"ips": 19536,
-		"common": 55
+		"ips": 19567,
+		"common": 54
 	},
 	{
 		"name": "nt_ssh_7d",
