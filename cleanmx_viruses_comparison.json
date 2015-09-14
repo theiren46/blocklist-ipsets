@@ -14,8 +14,8 @@
 	{
 		"name": "bambenek_c2",
 		"category": "malware",
-		"ips": 238,
-		"common": 17
+		"ips": 252,
+		"common": 18
 	},
 	{
 		"name": "bambenek_pykspa",
@@ -68,7 +68,7 @@
 	{
 		"name": "blocklist_de_bruteforce",
 		"category": "attacks",
-		"ips": 12488,
+		"ips": 12670,
 		"common": 3
 	},
 	{
@@ -86,8 +86,14 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 20529,
+		"ips": 20517,
 		"common": 83
+	},
+	{
+		"name": "bm_tor",
+		"category": "anonymizers",
+		"ips": 6216,
+		"common": 1
 	},
 	{
 		"name": "bogons",
@@ -98,7 +104,7 @@
 	{
 		"name": "botscout_30d",
 		"category": "abuse",
-		"ips": 19916,
+		"ips": 19922,
 		"common": 1
 	},
 	{
@@ -118,6 +124,12 @@
 		"category": "attacks",
 		"ips": 130386,
 		"common": 3
+	},
+	{
+		"name": "dm_tor",
+		"category": "anonymizers",
+		"ips": 6186,
+		"common": 1
 	},
 	{
 		"name": "dragon_http",
@@ -159,24 +171,24 @@
 		"name": "dshield",
 		"category": "attacks",
 		"ips": 5120,
-		"common": 1
+		"common": 2
 	},
 	{
 		"name": "dshield_1d",
 		"category": "attacks",
-		"ips": 89600,
+		"ips": 89856,
 		"common": 11
 	},
 	{
 		"name": "dshield_30d",
 		"category": "attacks",
-		"ips": 950528,
+		"ips": 951040,
 		"common": 55
 	},
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 352000,
+		"ips": 352768,
 		"common": 22
 	},
 	{
@@ -200,26 +212,26 @@
 	{
 		"name": "firehol_anonymous",
 		"category": "anonymizers",
-		"ips": 94008,
-		"common": 3
+		"ips": 93843,
+		"common": 4
 	},
 	{
 		"name": "firehol_level1",
 		"category": "attacks",
-		"ips": 686391128,
-		"common": 19
+		"ips": 686391142,
+		"common": 21
 	},
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 125517,
+		"ips": 125783,
 		"common": 22
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 11033662,
-		"common": 3283
+		"ips": 11034186,
+		"common": 3282
 	},
 	{
 		"name": "firehol_proxies",
@@ -242,7 +254,7 @@
 	{
 		"name": "greensnow",
 		"category": "attacks",
-		"ips": 1567,
+		"ips": 1559,
 		"common": 1
 	},
 	{
@@ -422,7 +434,7 @@
 	{
 		"name": "nixspam",
 		"category": "spam",
-		"ips": 19618,
+		"ips": 19645,
 		"common": 3
 	},
 	{
@@ -483,7 +495,7 @@
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 37737096,
-		"common": 601
+		"common": 600
 	},
 	{
 		"name": "ri_connect_proxies_30d",
@@ -596,7 +608,7 @@
 	{
 		"name": "talosintel_ipfilter",
 		"category": "attacks",
-		"ips": 9536,
+		"ips": 9509,
 		"common": 64
 	},
 	{
