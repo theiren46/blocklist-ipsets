@@ -12,6 +12,12 @@
 		"common": 2
 	},
 	{
+		"name": "blocklist_net_ua",
+		"category": "abuse",
+		"ips": 22179,
+		"common": 1
+	},
+	{
 		"name": "firehol_level2",
 		"category": "attacks",
 		"ips": 111411,
@@ -20,8 +26,8 @@
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 11064849,
-		"common": 23
+		"ips": 11064850,
+		"common": 25
 	},
 	{
 		"name": "gofferje_sip",
@@ -39,7 +45,7 @@
 		"name": "ib_bluetack_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 3
+		"common": 4
 	},
 	{
 		"name": "ib_bluetack_level1",
@@ -57,7 +63,7 @@
 		"name": "lashback_ubl",
 		"category": "spam",
 		"ips": 604384,
-		"common": 4
+		"common": 6
 	},
 	{
 		"name": "myip",
@@ -78,6 +84,12 @@
 		"common": 6
 	},
 	{
+		"name": "snort_ipfilter",
+		"category": "attacks",
+		"ips": 9672,
+		"common": 1
+	},
+	{
 		"name": "sorbs_dul",
 		"category": "spam",
 		"ips": 350037016,
@@ -87,6 +99,12 @@
 		"name": "sorbs_web",
 		"category": "spam",
 		"ips": 5655291,
+		"common": 1
+	},
+	{
+		"name": "talosintel_ipfilter",
+		"category": "attacks",
+		"ips": 9738,
 		"common": 1
 	}
 ]
