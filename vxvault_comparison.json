@@ -9,12 +9,12 @@
 		"name": "bds_atif",
 		"category": "reputation",
 		"ips": 14635,
-		"common": 3
+		"common": 2
 	},
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 21195,
+		"ips": 21191,
 		"common": 1
 	},
 	{
@@ -32,7 +32,7 @@
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 342784,
+		"ips": 342272,
 		"common": 1
 	},
 	{
@@ -45,19 +45,13 @@
 		"name": "ib_bluetack_bogons",
 		"category": "unroutable",
 		"ips": 666661539,
-		"common": 3
+		"common": 4
 	},
 	{
 		"name": "ib_bluetack_level3",
 		"category": "reputation",
 		"ips": 139104927,
-		"common": 7
-	},
-	{
-		"name": "ib_bluetack_spyware",
-		"category": "reputation",
-		"ips": 339021,
-		"common": 1
+		"common": 6
 	},
 	{
 		"name": "ib_malc0de",
@@ -78,15 +72,27 @@
 		"common": 19
 	},
 	{
+		"name": "malwaredomainlist",
+		"category": "malware",
+		"ips": 1294,
+		"common": 1
+	},
+	{
 		"name": "pushing_inertia_blocklist",
 		"category": "reputation",
 		"ips": 37737096,
-		"common": 6
+		"common": 5
 	},
 	{
 		"name": "shunlist",
 		"category": "attacks",
 		"ips": 1110,
+		"common": 1
+	},
+	{
+		"name": "snort_ipfilter",
+		"category": "attacks",
+		"ips": 9723,
 		"common": 1
 	},
 	{
@@ -105,6 +111,12 @@
 		"name": "stopforumspam_toxic",
 		"category": "abuse",
 		"ips": 514190,
+		"common": 1
+	},
+	{
+		"name": "talosintel_ipfilter",
+		"category": "attacks",
+		"ips": 9847,
 		"common": 1
 	}
 ]
