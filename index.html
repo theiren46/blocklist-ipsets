@@ -6,9 +6,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	
-	<title>FireHOL IP Lists | IP Blacklists | IP Blocklists | IP Reputation Feeds</title>
-	<meta name="description" content="Cybercrime, Fraud, Botnets, Command & Control, Μalware, Virus, Abuse, Attacks, Open Proxies, Anonymizing, IP Lists, IP blacklists, IP blocklists, IP Reputation.">
+	<title>FireHOL IP Lists | IP Blacklist | IP Blocklist | IP Reputation</title>
+	<meta name="description" content="Cybercrime, Fraud, Botnets, Command & Control, Μalware, Virus, Abuse, Attacks, Open Proxies, Anonymizing, IP lists, IP blacklists, IP blocklists, IP reputation.">
 	<meta name="keywords" content="IP blocklists, IP blacklists, IP Reputation Feeds, iptables ipsets, firewall blacklist, firewall blocklist, malware, abuse, attacks, proxies, anonymizers, SIEM">
+
+	<!-- <meta property="og:image" content="https://ktsaou.github.io/blocklist-ipsets/web-shield-512.png"/> -->
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:image" content="https://ktsaou.github.io/blocklist-ipsets/iplist-map.png?v5"/>
+	<meta property="og:url" content="http://iplists.firehol.org/"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:site_name" content="FireHOL IP Lists"/>
+	<meta property="og:title" content="FireHOL IP Lists | IP Blacklist | IP Blocklist | IP Reputation"/>
+	<meta property="og:description" content="250+ IP blacklists, IP blocklists and IP Reputation feeds, about Cybercrime, Fraud, Botnets, Μalware, Virus, Abuse, Attacks, Open Proxies, Anonymizers. See their changes and updates, size over time, retention policy, geographic coverage, comparisons and overlaps." />
 
 	<meta name="google-site-verification" content="ntBqCHwo8otS8DeWXyNXEOjTfOECbTqVw-NhDsKczAY" />
 	<meta name="msvalidate.01" content="896DCA31C9A664CE359FCF1A645DD476" />
@@ -21,15 +30,6 @@
 	<link rel="icon" type="image/png" href="//iplists.firehol.org/web-shield-32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="//iplists.firehol.org/web-shield-24.png" sizes="24x24">
 	<link rel="icon" type="image/png" href="//iplists.firehol.org/web-shield-16.png" sizes="16x16">
-
-	<!-- <meta property="og:image" content="https://ktsaou.github.io/blocklist-ipsets/web-shield-512.png"/> -->
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:image" content="https://ktsaou.github.io/blocklist-ipsets/iplist-map.png?v5"/>
-	<meta property="og:url" content="http://iplists.firehol.org/"/>
-	<meta property="og:type" content="website"/>
-	<meta property="og:site_name" content="FireHOL IP Lists"/>
-	<meta property="og:title" content="FireHOL IP Lists | IP Blacklists | IP Blocklists | IP Reputation Feeds"/>
-	<meta property="og:description" content="200+ IP blacklists, IP blocklists and IP feeds, about Cybercrime, Fraud, Botnets, Command & Control, Μalware, Virus, Abuse, Attacks, Open Proxies, Anonymizing. See their changes and updates, size over time, retention policy, geographic coverage, comparisons and overlaps." />
 
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <!--	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
@@ -167,11 +167,11 @@
 				</table>
 			</div>
 
-			<!--
 			<div class="pull-right">
-				<div class="addthis_sharing_toolbox"></div>
+				<!-- <div class='shareaholic-canvas' data-app='share_buttons' data-app-id=''></div> -->
+				<!-- <div class="addthis_sharing_toolbox"></div> -->
 			</div>
-			-->
+			
 			<!--
 			<div class="pull-right" style="height: 40px;">
 				<span class='st_sharethis_large' displayText='ShareThis'></span>
@@ -183,6 +183,7 @@
 				<span class='st_email_large' displayText='Email'></span>
 			</div>
 			-->
+			
 		</div>
 	</div>
 	<div class="row clearfix">
@@ -1300,9 +1301,16 @@ $(function () {
 		ipset_data = data;
 
 		if(!home) {
-			document.title = ipset + ((data.maintainer)?(' by ' + data.maintainer):'') + ', ' + data.category + ' IP list, at FireHOL IP Lists';
-			$('meta[name=description]').attr('content', ipset + ((data.category)?(' ' + data.category + ' list'):('')) + ((data.maintainer)?(' by ' + data.maintainer):' IP list') + ': updates, changes history, retention policy, geographic coverage, comparison with other IP lists.');
+			var title = ipset + ((data.maintainer)?(' by ' + data.maintainer):'') + ', ' + data.category + ' IPs list, at FireHOL IP Lists';
+			var description = ipset + ((data.category)?(' ' + data.category + ' list'):('')) + ((data.maintainer)?(' by ' + data.maintainer):' IP list') + ': updates, changes history, retention policy, geographic coverage, comparison with other IP lists.';
+
+			document.title = title;
+			$('meta[name=description]').attr('content', description);
 			$('meta[name=keywords]').attr('content', ((data.maintainer)?(data.maintainer + ', '):'') + ipset + ', IP blocklist, IP blacklist, IP reputation, IP feed, iptables ipset');
+			$("meta[property='og:url']").attr('content', 'http://iplists.firehol.org/?ipset=' + ipset);
+			$("meta[property='og:type']").attr('content', 'article');
+			$("meta[property='og:title']").attr('content', title);
+			$("meta[property='og:description']").attr('content', description);
 		}
 
 		// console.log(data);
