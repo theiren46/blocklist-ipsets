@@ -206,7 +206,7 @@ This script will update each ipset and call firehol to update the ipset while th
 
 # List of ipsets included
 
-The following list was automatically generated on Wed Sep 16 21:53:11 UTC 2015.
+The following list was automatically generated on Wed Sep 16 21:58:08 UTC 2015.
 
 The update frequency is the maximum allowed by internal configuration. A list will never be downloaded sooner than the update frequency stated. A list may also not be downloaded, after this frequency expired, if it has not been modified on the server (as reported by HTTP `IF_MODIFIED_SINCE` method).
 
@@ -379,7 +379,7 @@ bambenek_ranbyus|[Bambenek Consulting](http://osint.bambenekconsulting.com/feeds
 infiltrated|[infiltrated.net](http://www.infiltrated.net) (this list seems to be updated frequently, but we found no information about it)|ipv4 hash:ip|disabled|updated every 12 hours  from [this link](http://www.infiltrated.net/blacklisted)
 [ip2location_country](https://github.com/ktsaou/blocklist-ipsets/tree/master/ip2location_country)|[IP2Location.com](http://lite.ip2location.com/database-ip-country) geolocation database|ipv4 hash:net|All the world|updated every 1 day  from [this link](http://download.ip2location.com/lite/IP2LOCATION-LITE-DB1.CSV.ZIP)
 [ipdeny_country](https://github.com/ktsaou/blocklist-ipsets/tree/master/ipdeny_country)|[IPDeny.com](http://www.ipdeny.com/) geolocation database|ipv4 hash:net|All the world|updated every 1 day  from [this link](http://www.ipdeny.com/ipblocks/data/countries/all-zones.tar.gz)
-[iw_spamlist](http://iplists.firehol.org/?ipset=iw_spamlist)|[ImproWare Antispam](http://antispam.imp.ch/) IPs sending spam, in the last 3 days|ipv4 hash:ip|5706 unique IPs|updated every 1 hour  from [this link](http://antispam.imp.ch/spamlist)
+[iw_spamlist](http://iplists.firehol.org/?ipset=iw_spamlist)|[ImproWare Antispam](http://antispam.imp.ch/) IPs sending spam, in the last 3 days|ipv4 hash:ip|5710 unique IPs|updated every 1 hour  from [this link](http://antispam.imp.ch/spamlist)
 [iw_wormlist](http://iplists.firehol.org/?ipset=iw_wormlist)|[ImproWare Antispam](http://antispam.imp.ch/) IPs sending emails with viruses or worms, in the last 3 days|ipv4 hash:ip|6 unique IPs|updated every 1 hour  from [this link](http://antispam.imp.ch/wormlist)
 [lashback_ubl](http://iplists.firehol.org/?ipset=lashback_ubl)|[The LashBack UBL](http://blacklist.lashback.com/) The Unsubscribe Blacklist (UBL) is a real-time blacklist of IP addresses which are sending email to names harvested from suppression files (this is a big list, more than 500.000 IPs)|ipv4 hash:ip|660195 unique IPs|updated every 1 day  from [this link](http://www.unsubscore.com/blacklist.txt)
 [malc0de](http://iplists.firehol.org/?ipset=malc0de)|[Malc0de.com](http://malc0de.com) malicious IPs of the last 30 days|ipv4 hash:ip|352 unique IPs|updated every 1 day  from [this link](http://malc0de.com/bl/IP_Blacklist.txt)
@@ -470,7 +470,7 @@ sorbs_spam|[Sorbs.net](https://www.sorbs.net/) Spam senders, extracted from delt
 [sslbl](http://iplists.firehol.org/?ipset=sslbl)|[Abuse.ch SSL Blacklist](https://sslbl.abuse.ch/) bad SSL traffic related to malware or botnet activities|ipv4 hash:ip|171 unique IPs|updated every 30 mins  from [this link](https://sslbl.abuse.ch/blacklist/sslipblacklist.csv)
 [sslbl_aggressive](http://iplists.firehol.org/?ipset=sslbl_aggressive)|[Abuse.ch SSL Blacklist](https://sslbl.abuse.ch/) The aggressive version of the SSL IP Blacklist contains all IPs that SSLBL ever detected being associated with a malicious SSL certificate. Since IP addresses can be reused (e.g. when the customer changes), this blacklist may cause false positives. Hence I highly recommend you to use the standard version instead of the aggressive one.|ipv4 hash:ip|919 unique IPs|updated every 30 mins  from [this link](https://sslbl.abuse.ch/blacklist/sslipblacklist_aggressive.csv)
 [sslproxies](http://iplists.firehol.org/?ipset=sslproxies)|[SSLProxies.org](http://www.sslproxies.org/) open SSL proxies|ipv4 hash:ip|100 unique IPs|updated every 10 mins  from [this link](http://www.sslproxies.org/)
-[sslproxies_1d](http://iplists.firehol.org/?ipset=sslproxies_1d)|[SSLProxies.org](http://www.sslproxies.org/) open SSL proxies|ipv4 hash:ip|188 unique IPs|updated every 10 mins  from [this link](http://www.sslproxies.org/)
+[sslproxies_1d](http://iplists.firehol.org/?ipset=sslproxies_1d)|[SSLProxies.org](http://www.sslproxies.org/) open SSL proxies|ipv4 hash:ip|185 unique IPs|updated every 10 mins  from [this link](http://www.sslproxies.org/)
 [sslproxies_30d](http://iplists.firehol.org/?ipset=sslproxies_30d)|[SSLProxies.org](http://www.sslproxies.org/) open SSL proxies|ipv4 hash:ip|9798 unique IPs|updated every 10 mins  from [this link](http://www.sslproxies.org/)
 [sslproxies_7d](http://iplists.firehol.org/?ipset=sslproxies_7d)|[SSLProxies.org](http://www.sslproxies.org/) open SSL proxies|ipv4 hash:ip|1115 unique IPs|updated every 10 mins  from [this link](http://www.sslproxies.org/)
 [stopforumspam](http://iplists.firehol.org/?ipset=stopforumspam)|[StopForumSpam.com](http://www.stopforumspam.com) Banned IPs used by forum spammers|ipv4 hash:ip|229640 unique IPs|updated every 1 day  from [this link](http://www.stopforumspam.com/downloads/bannedips.zip)
