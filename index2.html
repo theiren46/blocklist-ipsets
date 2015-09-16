@@ -6,8 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	
-	<title>FireHOL IP Lists | IP Blacklists | IP Blocklists | IP Reputation Feeds</title>
-	<meta name="description" content="Cybercrime, Fraud, Botnets, Command & Control, Μalware, Virus, Abuse, Attacks, Open Proxies, Anonymizing, IP Lists, IP blacklists, IP blocklists, IP Reputation.">
+	<title>FireHOL IP Lists | IP Blacklist | IP Blocklist | IP Reputation</title>
+	<meta name="description" content="Cybercrime, Fraud, Botnets, Command & Control, Μalware, Virus, Abuse, Attacks, Open Proxies, Anonymizing, IP lists, IP blacklists, IP blocklists, IP reputation.">
 	<meta name="keywords" content="IP blocklists, IP blacklists, IP Reputation Feeds, iptables ipsets, firewall blacklist, firewall blocklist, malware, abuse, attacks, proxies, anonymizers, SIEM">
 
 	<meta name="google-site-verification" content="ntBqCHwo8otS8DeWXyNXEOjTfOECbTqVw-NhDsKczAY" />
@@ -28,8 +28,8 @@
 	<meta property="og:url" content="http://iplists.firehol.org/"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:site_name" content="FireHOL IP Lists"/>
-	<meta property="og:title" content="FireHOL IP Lists | IP Blacklists | IP Blocklists | IP Reputation Feeds"/>
-	<meta property="og:description" content="200+ IP blacklists, IP blocklists and IP feeds, about Cybercrime, Fraud, Botnets, Command & Control, Μalware, Virus, Abuse, Attacks, Open Proxies, Anonymizing. See their changes and updates, size over time, retention policy, geographic coverage, comparisons and overlaps." />
+	<meta property="og:title" content="FireHOL IP Lists | IP Blacklists | IP Reputation Feeds"/>
+	<meta property="og:description" content="250+ IP blacklists, IP blocklists and IP Reputation feeds, about Cybercrime, Fraud, Botnets, Μalware, Virus, Abuse, Attacks, Open Proxies, Anonymizers. See their changes and updates, size over time, retention policy, geographic coverage, comparisons and overlaps." />
 
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <!--	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
@@ -740,9 +740,6 @@ function drawmap(ipset, geo, container) {
 			chart: {
 				height: 450
 			},
-			title: {
-				text: ipset
-			},
 			subtitle: {
 				floating: true,
 				text: 'mapped with ' + geo + ' geo-country DB'
@@ -821,9 +818,6 @@ function drawhistory(ipset, hide_entries, container) {
 			},
 			chart: {
 				height: 450
-			},
-			title: {
-				text: ipset
 			},
 			subtitle: {
 				text: 'evolution of unique IPs and entries'
@@ -937,9 +931,6 @@ function drawchangesets(ipset, container) {
 			},
 			chart: {
 				height: 450
-			},
-			title: {
-				text: ipset
 			},
 			subtitle: {
 				text: 'changes history of unique IPs'
@@ -1077,9 +1068,6 @@ function drawretention(ipset, container_age, container_retention) {
 					filename: ipset + ' age',
 					width: 2000
 				},
-				title: {
-					text: data.ipset
-				},
 				subtitle: {
 					text: 'Age of <b>' + data.current.total.toLocaleString() + '</b> currently listed IPs<br/>monitoring its age since ' + new Date(data.started).toString()
 				},
@@ -1170,9 +1158,6 @@ function drawretention(ipset, container_age, container_retention) {
 					allowHTML: true,
 					filename: ipset + ' retention',
 					width: 2000
-				},
-				title: {
-					text: data.ipset
 				},
 				subtitle: {
 					text: 'Retention of <b>not</b> currently listed IPs<br/>for ' + data.past.total.toLocaleString() + ' IPs removed, <b>' + (data.past.total * 100 / (data.past.total + overheads)).toFixed(2) + ' %</b> of ' + (data.past.total + overheads).toLocaleString() + ' IPs added since we started<br/>monitoring it (' + new Date(data.started).toString() + ')'
