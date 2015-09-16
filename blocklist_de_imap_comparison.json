@@ -120,12 +120,6 @@
 		"common": 6
 	},
 	{
-		"name": "dragon_sshpauth",
-		"category": "attacks",
-		"ips": 2345,
-		"common": 1
-	},
-	{
 		"name": "dragon_vncprobe",
 		"category": "attacks",
 		"ips": 136,
@@ -182,7 +176,7 @@
 	{
 		"name": "firehol_anonymous",
 		"category": "anonymizers",
-		"ips": 94037,
+		"ips": 94036,
 		"common": 2
 	},
 	{
@@ -194,14 +188,14 @@
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 114522,
+		"ips": 114422,
 		"common": 1458
 	},
 	{
 		"name": "firehol_level3",
 		"category": "attacks",
-		"ips": 11138913,
-		"common": 99
+		"ips": 11139267,
+		"common": 102
 	},
 	{
 		"name": "firehol_proxies",
@@ -428,7 +422,7 @@
 	{
 		"name": "packetmail",
 		"category": "reputation",
-		"ips": 586,
+		"ips": 603,
 		"common": 2
 	},
 	{
@@ -560,8 +554,8 @@
 	{
 		"name": "snort_ipfilter",
 		"category": "attacks",
-		"ips": 11130,
-		"common": 17
+		"ips": 11484,
+		"common": 20
 	},
 	{
 		"name": "socks_proxy_30d",
@@ -658,5 +652,11 @@
 		"category": "attacks",
 		"ips": 11484,
 		"common": 20
+	},
+	{
+		"name": "virbl",
+		"category": "spam",
+		"ips": 23,
+		"common": 1
 	}
 ]
