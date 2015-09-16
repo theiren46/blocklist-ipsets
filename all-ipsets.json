@@ -363,9 +363,9 @@
 		"ipset": "blocklist_de",
 		"category": "attacks",
 		"maintainer": "Blocklist.de",
-		"updated": 1442434202000,
+		"updated": 1442435286000,
 		"clock_skew": 0,
-		"ips": 34221
+		"ips": 34295
 	},
 	{
 		"ipset": "blocklist_de_apache",
@@ -379,9 +379,9 @@
 		"ipset": "blocklist_de_bots",
 		"category": "attacks",
 		"maintainer": "Blocklist.de",
-		"updated": 1442434212000,
+		"updated": 1442436131000,
 		"clock_skew": 0,
-		"ips": 2879
+		"ips": 2865
 	},
 	{
 		"ipset": "blocklist_de_bruteforce",
@@ -403,9 +403,9 @@
 		"ipset": "blocklist_de_imap",
 		"category": "attacks",
 		"maintainer": "Blocklist.de",
-		"updated": 1442434211000,
+		"updated": 1442435291000,
 		"clock_skew": 0,
-		"ips": 1679
+		"ips": 1680
 	},
 	{
 		"ipset": "blocklist_de_mail",
@@ -510,6 +510,14 @@
 		"updated": 1442427308000,
 		"clock_skew": 0,
 		"ips": 404
+	},
+	{
+		"ipset": "cidr_report_bogons",
+		"category": "unroutable",
+		"maintainer": "CIDR-Report.org",
+		"updated": 1442376490000,
+		"clock_skew": 0,
+		"ips": 606761224
 	},
 	{
 		"ipset": "cleanmx_viruses",
@@ -651,7 +659,7 @@
 		"ipset": "dshield",
 		"category": "attacks",
 		"maintainer": "DShield.org",
-		"updated": 1442434575000,
+		"updated": 1442436066000,
 		"clock_skew": 0,
 		"ips": 5120
 	},
@@ -659,25 +667,25 @@
 		"ipset": "dshield_1d",
 		"category": "attacks",
 		"maintainer": "DShield.org",
-		"updated": 1442434575000,
+		"updated": 1442436066000,
 		"clock_skew": 0,
-		"ips": 66816
+		"ips": 66304
 	},
 	{
 		"ipset": "dshield_30d",
 		"category": "attacks",
 		"maintainer": "DShield.org",
-		"updated": 1442434575000,
+		"updated": 1442436066000,
 		"clock_skew": 0,
-		"ips": 1029376
+		"ips": 1029632
 	},
 	{
 		"ipset": "dshield_7d",
 		"category": "attacks",
 		"maintainer": "DShield.org",
-		"updated": 1442435191000,
+		"updated": 1442436066000,
 		"clock_skew": 0,
-		"ips": 334336
+		"ips": 334592
 	},
 	{
 		"ipset": "et_block",
@@ -739,33 +747,33 @@
 		"ipset": "firehol_anonymous",
 		"category": "anonymizers",
 		"maintainer": "FireHOL",
-		"updated": 1442435234000,
+		"updated": 1442435800000,
 		"clock_skew": 0,
-		"ips": 93969
+		"ips": 93971
 	},
 	{
 		"ipset": "firehol_level1",
 		"category": "attacks",
 		"maintainer": "FireHOL",
-		"updated": 1442434575000,
+		"updated": 1442436066000,
 		"clock_skew": 0,
-		"ips": 686360666
+		"ips": 686360410
 	},
 	{
 		"ipset": "firehol_level2",
 		"category": "attacks",
 		"maintainer": "FireHOL",
-		"updated": 1442435873000,
+		"updated": 1442436066000,
 		"clock_skew": 0,
-		"ips": 107766
+		"ips": 107328
 	},
 	{
 		"ipset": "firehol_level3",
 		"category": "attacks",
 		"maintainer": "FireHOL",
-		"updated": 1442435859000,
+		"updated": 1442436066000,
 		"clock_skew": 0,
-		"ips": 11146441
+		"ips": 11146697
 	},
 	{
 		"ipset": "firehol_proxies",
@@ -2043,9 +2051,9 @@
 		"ipset": "stopforumspam_365d",
 		"category": "abuse",
 		"maintainer": "StopForumSpam.com",
-		"updated": 1442318687000,
+		"updated": 1442405083000,
 		"clock_skew": 0,
-		"ips": 925617
+		"ips": 925069
 	},
 	{
 		"ipset": "stopforumspam_7d",
@@ -2083,7 +2091,7 @@
 		"ipset": "tor_exits",
 		"category": "anonymizers",
 		"maintainer": "TorProject.org",
-		"updated": 1442433783000,
+		"updated": 1442435800000,
 		"clock_skew": 0,
 		"ips": 1001
 	},
@@ -2091,7 +2099,7 @@
 		"ipset": "tor_exits_1d",
 		"category": "anonymizers",
 		"maintainer": "TorProject.org",
-		"updated": 1442433783000,
+		"updated": 1442435800000,
 		"clock_skew": 0,
 		"ips": 1122
 	},
@@ -2099,17 +2107,17 @@
 		"ipset": "tor_exits_30d",
 		"category": "anonymizers",
 		"maintainer": "TorProject.org",
-		"updated": 1442433783000,
+		"updated": 1442435800000,
 		"clock_skew": 0,
-		"ips": 2964
+		"ips": 2966
 	},
 	{
 		"ipset": "tor_exits_7d",
 		"category": "anonymizers",
 		"maintainer": "TorProject.org",
-		"updated": 1442433783000,
+		"updated": 1442435800000,
 		"clock_skew": 0,
-		"ips": 1608
+		"ips": 1589
 	},
 	{
 		"ipset": "virbl",
