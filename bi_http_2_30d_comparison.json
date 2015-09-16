@@ -62,7 +62,7 @@
 	{
 		"name": "blocklist_de_apache",
 		"category": "attacks",
-		"ips": 19892,
+		"ips": 19971,
 		"common": 13
 	},
 	{
@@ -80,7 +80,7 @@
 	{
 		"name": "blocklist_de_ssh",
 		"category": "attacks",
-		"ips": 2518,
+		"ips": 2520,
 		"common": 1
 	},
 	{
@@ -92,31 +92,31 @@
 	{
 		"name": "blocklist_net_ua",
 		"category": "abuse",
-		"ips": 20789,
+		"ips": 20784,
 		"common": 11
 	},
 	{
 		"name": "bm_tor",
 		"category": "anonymizers",
-		"ips": 6254,
+		"ips": 6236,
 		"common": 3
 	},
 	{
 		"name": "botscout_1d",
 		"category": "abuse",
-		"ips": 1270,
+		"ips": 1262,
 		"common": 3
 	},
 	{
 		"name": "botscout_30d",
 		"category": "abuse",
-		"ips": 19946,
+		"ips": 19960,
 		"common": 4
 	},
 	{
 		"name": "botscout_7d",
 		"category": "abuse",
-		"ips": 6386,
+		"ips": 6376,
 		"common": 3
 	},
 	{
@@ -180,9 +180,15 @@
 		"common": 3
 	},
 	{
+		"name": "dshield",
+		"category": "attacks",
+		"ips": 5120,
+		"common": 3
+	},
+	{
 		"name": "dshield_1d",
 		"category": "attacks",
-		"ips": 83456,
+		"ips": 82688,
 		"common": 11
 	},
 	{
@@ -194,7 +200,7 @@
 	{
 		"name": "dshield_7d",
 		"category": "attacks",
-		"ips": 346368,
+		"ips": 346112,
 		"common": 18
 	},
 	{
@@ -212,13 +218,19 @@
 	{
 		"name": "firehol_anonymous",
 		"category": "anonymizers",
-		"ips": 94268,
+		"ips": 94135,
+		"common": 3
+	},
+	{
+		"name": "firehol_level1",
+		"category": "attacks",
+		"ips": 686400600,
 		"common": 3
 	},
 	{
 		"name": "firehol_level2",
 		"category": "attacks",
-		"ips": 121930,
+		"ips": 121138,
 		"common": 29
 	},
 	{
@@ -230,7 +242,7 @@
 	{
 		"name": "firehol_proxies",
 		"category": "anonymizers",
-		"ips": 32915,
+		"ips": 32924,
 		"common": 3
 	},
 	{
@@ -242,7 +254,7 @@
 	{
 		"name": "greensnow",
 		"category": "attacks",
-		"ips": 1668,
+		"ips": 1644,
 		"common": 11
 	},
 	{
@@ -376,12 +388,6 @@
 		"category": "reputation",
 		"ips": 590,
 		"common": 6
-	},
-	{
-		"name": "php_commenters_1d",
-		"category": "spam",
-		"ips": 93,
-		"common": 1
 	},
 	{
 		"name": "php_commenters_30d",
