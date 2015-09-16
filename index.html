@@ -741,7 +741,7 @@ function drawmap(ipset, geo, container) {
 				height: 450
 			},
 			title: {
-				text: ipset
+				text: ipset + ' Country Map'
 			},
 			subtitle: {
 				floating: true,
@@ -823,7 +823,7 @@ function drawhistory(ipset, hide_entries, container) {
 				height: 450
 			},
 			title: {
-				text: ipset
+				text: ipset + ' History'
 			},
 			subtitle: {
 				text: 'evolution of unique IPs and entries'
@@ -939,7 +939,7 @@ function drawchangesets(ipset, container) {
 				height: 450
 			},
 			title: {
-				text: ipset
+				text: ipset + ' Changes History'
 			},
 			subtitle: {
 				text: 'changes history of unique IPs'
@@ -1078,7 +1078,7 @@ function drawretention(ipset, container_age, container_retention) {
 					width: 2000
 				},
 				title: {
-					text: data.ipset
+					text: data.ipset + ' Age of IPs'
 				},
 				subtitle: {
 					text: 'Age of <b>' + data.current.total.toLocaleString() + '</b> currently listed IPs<br/>monitoring its age since ' + new Date(data.started).toString()
@@ -1172,7 +1172,7 @@ function drawretention(ipset, container_age, container_retention) {
 					width: 2000
 				},
 				title: {
-					text: data.ipset
+					text: data.ipset + ' Retention Policy'
 				},
 				subtitle: {
 					text: 'Retention of <b>not</b> currently listed IPs<br/>for ' + data.past.total.toLocaleString() + ' IPs removed, <b>' + (data.past.total * 100 / (data.past.total + overheads)).toFixed(2) + ' %</b> of ' + (data.past.total + overheads).toLocaleString() + ' IPs added since we started<br/>monitoring it (' + new Date(data.started).toString() + ')'
