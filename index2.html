@@ -741,8 +741,7 @@ function drawmap(ipset, geo, container) {
 				height: 450
 			},
 			title: {
-				enabled: false,
-				text: null
+				text: ipset
 			},
 			subtitle: {
 				floating: true,
@@ -824,8 +823,7 @@ function drawhistory(ipset, hide_entries, container) {
 				height: 450
 			},
 			title: {
-				enabled: false,
-				text: null
+				text: ipset
 			},
 			subtitle: {
 				text: 'evolution of unique IPs and entries'
@@ -941,8 +939,7 @@ function drawchangesets(ipset, container) {
 				height: 450
 			},
 			title: {
-				enabled: false,
-				text: null
+				text: ipset
 			},
 			subtitle: {
 				text: 'changes history of unique IPs'
@@ -1081,8 +1078,7 @@ function drawretention(ipset, container_age, container_retention) {
 					width: 2000
 				},
 				title: {
-					enabled: false,
-					text: null
+					text: data.ipset
 				},
 				subtitle: {
 					text: 'Age of <b>' + data.current.total.toLocaleString() + '</b> currently listed IPs<br/>monitoring its age since ' + new Date(data.started).toString()
@@ -1176,8 +1172,7 @@ function drawretention(ipset, container_age, container_retention) {
 					width: 2000
 				},
 				title: {
-					enabled: false,
-					text: null
+					text: data.ipset
 				},
 				subtitle: {
 					text: 'Retention of <b>not</b> currently listed IPs<br/>for ' + data.past.total.toLocaleString() + ' IPs removed, <b>' + (data.past.total * 100 / (data.past.total + overheads)).toFixed(2) + ' %</b> of ' + (data.past.total + overheads).toLocaleString() + ' IPs added since we started<br/>monitoring it (' + new Date(data.started).toString() + ')'
@@ -1306,9 +1301,16 @@ $(function () {
 		ipset_data = data;
 
 		if(!home) {
-			document.title = ipset + ((data.maintainer)?(' by ' + data.maintainer):'') + ', ' + data.category + ' IP list, at FireHOL IP Lists';
-			$('meta[name=description]').attr('content', ipset + ((data.category)?(' ' + data.category + ' list'):('')) + ((data.maintainer)?(' by ' + data.maintainer):' IP list') + ': updates, changes history, retention policy, geographic coverage, comparison with other IP lists.');
+			var title = ipset + ((data.maintainer)?(' by ' + data.maintainer):'') + ', ' + data.category + ' IP list, at FireHOL IP Lists';
+			var description = ipset + ((data.category)?(' ' + data.category + ' list'):('')) + ((data.maintainer)?(' by ' + data.maintainer):' IP list') + ': updates, changes history, retention policy, geographic coverage, comparison with other IP lists.';
+
+			document.title = title;
+			$('meta[name=description]').attr('content', description);
 			$('meta[name=keywords]').attr('content', ((data.maintainer)?(data.maintainer + ', '):'') + ipset + ', IP blocklist, IP blacklist, IP reputation, IP feed, iptables ipset');
+			$("meta[property='og:url']").attr('content', 'http://iplists.firehol.org/ipset=' + ipset);
+			$("meta[property='og:type']").attr('content', 'article');
+			$("meta[property='og:title']").attr('content', title);
+			$("meta[property='og:description']").attr('content', description);
 		}
 
 		// console.log(data);
